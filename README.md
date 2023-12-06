@@ -1,19 +1,22 @@
-# jamescao
+Jamescao
+===
 學歷:
 ---
-    KNU University Information manage(學士)
+   1.KNU University Information manage(學士)
 
 職涯:
 ---
-    群環科技-客服工程師
+    1.群環科技-客服工程師
 
-    中華數位-客服暨技術工程師
+    2.中華數位-客服暨技術工程師
 
-    泰博科技(現職)-資安工程師
+    3.泰博科技(現職)-資安工程師
 
 證照:
 ---
-    RHCE v6、CEH v11、CISSP
+    1.RHCE v6
+    2.CEH v11
+    3.CISSP
 
 技能:
 ---
