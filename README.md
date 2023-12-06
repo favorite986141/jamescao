@@ -1,9 +1,9 @@
 # jamescao
-    學歷:
- ---
+學歷:
+---
     KNU University Information manage(學士)
 
-    職涯:
+職涯:
 ---
     群環科技-客服工程師
 
@@ -11,11 +11,11 @@
 
     泰博科技(現職)-資安工程師
 
-    證照:
+證照:
 ---
     RHCE v6、CEH v11、CISSP
 
-    技能:
+技能:
 ---
     1. Build SIEM system for log collect
 
