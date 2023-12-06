@@ -2,6 +2,7 @@ Jamescao
 ===
 學歷:
 ---
+    
     1.KNU University Information manage(學士)
 
 職涯:
