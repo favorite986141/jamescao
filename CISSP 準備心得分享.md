@@ -39,9 +39,9 @@
 
 ![image](https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151004.png)
 
-![image]([https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151004.png](https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151014.png))
+![image](https://github.com/favorite986141/jamescao/blob/d0bd26091680f8871543c38c0002d894724d51ce/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151014.png)
 
-![image]([https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151004.png](https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151023.png)https://github.com/favorite986141/jamescao/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151023.png)
+![image](https://github.com/favorite986141/jamescao/blob/d0bd26091680f8871543c38c0002d894724d51ce/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-06%20151023.png)
 
 考試當天
 
