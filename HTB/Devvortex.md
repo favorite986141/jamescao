@@ -13,3 +13,8 @@ Devvortex
    3.瀏覽http://devvortex.htb/
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c3dbd0b5-2141-4e37-8272-20c5e5f28171)
+
+   4.使用gobuster進行URL枚舉
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/fb578784-1abe-4a12-a4ee-4a4de249460c)
+
