@@ -72,6 +72,18 @@ Devvortex
     17.找到儲存使用者的table並查看內容，得到除了lewis帳號還有另一個logan帳號和密碼(hash)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1ee66bfb-4812-4585-85f0-ec8c002db38e)
-    
+
+    18.破解Hash
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3cd158d2-986f-4d26-8ce6-307d065b4c78)
+
+    19.使用破解得到的密碼進行logan登入
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0695e49a-b5f3-4763-869f-1779796d6a56)
+
+    20.找到user.txt並提交答案
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/66c10491-de34-4b10-ae98-d6f834e9a49e)
+
 
 
