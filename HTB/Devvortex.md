@@ -60,4 +60,6 @@ Devvortex
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a6b70d3c-3b17-4c9a-884f-f871244d8975)
 
+    15.在執行 MySQL 連接到資料庫之前，讓我們使用 Python 產生偽終端實用程式 這將幫助我們完成與 MySQL 所需的所有互動。
+    python3 -c "import pty;pty.spawn('/bin/bash')"
 
