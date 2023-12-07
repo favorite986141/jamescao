@@ -63,3 +63,15 @@ Devvortex
     15.在執行 MySQL 連接到資料庫之前，讓我們使用 Python 產生偽終端實用程式 這將幫助我們完成與 MySQL 所需的所有互動。
     python3 -c "import pty;pty.spawn('/bin/bash')"
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bc05e83f-b3b3-439f-84a1-93c767abcc8b)
+
+    16.登入MySQL利用先前拿到的lewis帳號登入
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ab01f48e-6394-45ad-a1fb-126ee342047e)
+
+    17.找到儲存使用者的table並查看內容，得到除了lewis帳號還有另一個logan帳號和密碼(hash)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1ee66bfb-4812-4585-85f0-ec8c002db38e)
+    
+
+
