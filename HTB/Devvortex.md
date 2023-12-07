@@ -82,7 +82,8 @@ Devvortex
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0695e49a-b5f3-4763-869f-1779796d6a56)
 
     20.找到user.txt並提交答案
-
+尋找root flag
+---
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/66c10491-de34-4b10-ae98-d6f834e9a49e)
 
 
