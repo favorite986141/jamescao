@@ -38,7 +38,8 @@ Devvortex
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8a7a4a19-713b-4860-9d96-d0a95e17e252)
 
-    10.找到github的漏洞資訊[CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752/tree/master)
+    10.找到github的漏洞資訊
+[CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752/tree/master)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c319b22c-8b56-417c-b055-86f8f5692016)
 
