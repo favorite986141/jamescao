@@ -34,3 +34,7 @@ Devvortex
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d8243b32-6398-4f44-8b9c-886ccb5b5e2e)
 
+    9.使用JoomScan工具探測Joomla資訊，發現到使用Joomla 4.2.6漏洞版本
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8a7a4a19-713b-4860-9d96-d0a95e17e252)
+
