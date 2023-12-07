@@ -42,4 +42,7 @@ Devvortex
 [CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752/tree/master)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c319b22c-8b56-417c-b055-86f8f5692016)
+    
+    11.利用漏洞找出帳號、密碼
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/617d9009-00a5-4bc0-892b-fbbe9e88e2b1)
