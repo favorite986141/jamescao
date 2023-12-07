@@ -23,3 +23,14 @@ Devvortex
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c9c5ad0d-8f5e-4723-9800-71dcdfb35dbb)
 
     6.瀏覽http://dev.devvortex.htb/
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/24e738e5-ba3f-412c-97cc-3b62e8e3233e)
+
+    7.在對http://dev.devvortex.htb/ 進行枚舉並找到administrator
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6e892541-17c1-49ac-b5b2-4a9dec27ad8c)
+
+    8.瀏覽http://dev.devvortex.htb/administrator/發現是一個joomla平台的後台登入頁面
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d8243b32-6398-4f44-8b9c-886ccb5b5e2e)
+
