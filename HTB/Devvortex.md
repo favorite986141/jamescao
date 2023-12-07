@@ -9,3 +9,7 @@ Devvortex
     2.將devvortex.htb加入/etc/hosts
     
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/85796978-52fa-40a1-a664-553e6e6db79e)
+
+   3.瀏覽http://devvortex.htb/
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c3dbd0b5-2141-4e37-8272-20c5e5f28171)
