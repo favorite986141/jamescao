@@ -56,5 +56,8 @@ Devvortex
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/90022bab-027b-4af8-9b1a-d5e633337c49)
 
+    14.Client使用netcat，當插入shell按下儲存後就會執行
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a6b70d3c-3b17-4c9a-884f-f871244d8975)
 
 
