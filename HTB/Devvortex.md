@@ -87,5 +87,18 @@ Devvortex
 
 尋找root flag
 ---
+    21.由於我們知道密碼，我們將能夠進行身份驗證並檢查是否可以使用 root 存取權限來執行任何腳本
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/33de2556-c3ef-411f-b559-11e4eb229191)
+
+    22.利用apport-cli漏洞提升權限
+[exploit](https://github.com/canonical/apport/commit/e5f78cc89f1f5888b6a56b785dddcb0364c48ecb)
+
+    23.執行sudo apport-cli -c /var/crash/xxx.crash less獲取root權限
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/975d44f3-9852-4779-8026-9adf4c6509d3)
+
+    24.獲得root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b2963e7b-4e13-4c97-b4b0-6fd8cd8370d0)
 
