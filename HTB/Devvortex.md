@@ -51,4 +51,10 @@ Devvortex
     
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0f4c3873-b878-47e6-99c8-87b102ae58e8)
 
+    13.由於登入是administrator權限，我們可以透過Template在index.php插入php reverse shell
+  [shell](https://gist.github.com/rshipp/eee36684db07d234c1cc)  
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/90022bab-027b-4af8-9b1a-d5e633337c49)
+
+
 
