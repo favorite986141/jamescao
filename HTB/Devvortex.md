@@ -45,4 +45,5 @@ Devvortex
     
     11.利用漏洞找出帳號、密碼
 
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/617d9009-00a5-4bc0-892b-fbbe9e88e2b1)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d44e2a53-0ae0-48a9-93d9-4c65a2d9f089)
+
