@@ -47,4 +47,8 @@ Devvortex
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b041e8d-ed12-4648-8498-ad6957dc0e68)
 
+    12.使用尋找到的帳號密碼登入後台
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0f4c3873-b878-47e6-99c8-87b102ae58e8)
+
 
