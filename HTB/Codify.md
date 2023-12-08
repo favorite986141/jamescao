@@ -8,6 +8,6 @@ Codify
 
       2.使用80 port為進入點，瀏覽網頁
 
-    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/71fa5ff9-33cd-4343-baf9-9262c677d5ac)
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/71fa5ff9-33cd-4343-baf9-9262c677d5ac)
 
       3.
