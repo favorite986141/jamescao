@@ -70,3 +70,7 @@ Codify
           else:
               found = True
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/532a4da9-484b-4d50-b4d2-27a156a56160)
+
+       13.登入root，拿到root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2eb65333-af7c-4bd1-b6b7-79c563f6a584)
