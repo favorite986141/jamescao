@@ -37,3 +37,13 @@ Codify
 尋找root.txt
 ---
 
+      9.執行sudo -l 確認可執行指令
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/35fecdc5-8641-422f-aeed-82fb65c52c04)
+
+      10.檢視mysql-backup.sh內容
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/fcc7ea94-9229-405b-a45d-912a4fef8cf9)
+
+
+    
