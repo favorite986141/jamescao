@@ -17,3 +17,17 @@ Codify
       4.在runtime環境下執行POC指令測試使用cat /etc/passwd
 
    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/13170605-5477-4863-8cbc-ff48a9a65ee7)
+
+      5.使用reverse shell
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0ed4a6d2-aa3c-45e2-af79-f4b7d588acf9)
+
+      6.進入/var/www/contact目錄，檢視tickets.db拿到joshua密碼HASH
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bfb6ea03-f494-4d0b-b431-dc358a937d1d)
+
+      7.破解密碼HASH後，登入joshua
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/87abbb76-f893-427a-a1cc-83caa6844a99)
+
+
