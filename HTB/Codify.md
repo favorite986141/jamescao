@@ -32,7 +32,7 @@ Codify
 
       8.拿到user.txt
 
-   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f499abca-2b8a-4ec8-a720-1e8c7119eaa4)
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a17fbfe0-ddc3-46cd-9708-f6ee904dfbb5)
 
 尋找root.txt
 ---
