@@ -28,7 +28,12 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2ec5195f-24d4-4f4f-a27e-7529ae92e038)
 
-        6.上傳.phar檔確認成功後，利用**Gobuster**發現了一個uploads目錄
+        6.上傳.phar檔確認成功後，利用Gobuster發現了一個uploads目錄
 
  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5699479d-9295-40ab-ad20-a4b7358bc7de)
+
+        7.在upload找尋上傳的檔案並得到shell頁面
+
+ ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/80bab4d1-07e6-4789-85be-a1aee90f9fee)
+
 
