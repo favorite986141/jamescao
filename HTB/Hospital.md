@@ -18,7 +18,12 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3dc803ce-b1a5-445c-bb7d-b2865493a1c0)
 
-        4.嘗試上傳圖片顯示(success)，上傳shell(error)
+        4.嘗試上傳圖片顯示(success)，上傳shell(error)，表示有檢查上傳檔案格式
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3a187ba4-4909-491a-b3a4-1b7ce2ff4f62)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3ffc1f3f-0ce9-46ec-9812-6d5ec621d10d)
+
+        5.建立圖片將shell內容key in到圖片裡面並將副檔名改成.phar
+[p0wny-shell](https://github.com/flozz/p0wny-shell?source=post_page-----887fd3d6fee9--------------------------------) 
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2ec5195f-24d4-4f4f-a27e-7529ae92e038)
