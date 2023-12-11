@@ -40,3 +40,4 @@
 
  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a3933bc2-6344-4c98-894d-734116dae854)
 
+**讓我們使用 Python 產生偽終端實用程式 這將幫助我們完成與 MySQL 所需的所有互動。python3 -c "import pty;pty.spawn('/bin/bash')"**
