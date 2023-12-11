@@ -17,3 +17,8 @@
         3.在管理後台新建一個帳號登入，是一個上傳檔案的網頁
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3dc803ce-b1a5-445c-bb7d-b2865493a1c0)
+
+        4.嘗試上傳圖片顯示(success)，上傳shell(error)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3a187ba4-4909-491a-b3a4-1b7ce2ff4f62)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3ffc1f3f-0ce9-46ec-9812-6d5ec621d10d)
