@@ -27,3 +27,8 @@
 [p0wny-shell](https://github.com/flozz/p0wny-shell?source=post_page-----887fd3d6fee9--------------------------------) 
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2ec5195f-24d4-4f4f-a27e-7529ae92e038)
+
+        6.上傳.phar檔確認成功後，利用**Gobuster**發現了一個uploads目錄
+
+ ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5699479d-9295-40ab-ad20-a4b7358bc7de)
+
