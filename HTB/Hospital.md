@@ -41,3 +41,6 @@
  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a3933bc2-6344-4c98-894d-734116dae854)
 
 **讓我們使用 Python 產生偽終端實用程式 這將幫助我們完成與 MySQL 所需的所有互動。python3 -c "import pty;pty.spawn('/bin/bash')"**
+
+        9.檢查內核版本有弱點。確認是 5.19.0。所以嘗試這個漏洞利用
+  [CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/tree/main)
