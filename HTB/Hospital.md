@@ -13,3 +13,7 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/579e673d-3576-4f71-885a-514671f70e3c)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/30f7cc70-d7e1-4653-845e-cc5b824be4a4)
+
+        3.在管理後台新建一個帳號登入，是一個上傳檔案的網頁
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3dc803ce-b1a5-445c-bb7d-b2865493a1c0)
