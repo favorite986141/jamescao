@@ -36,4 +36,7 @@
 
  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/80bab4d1-07e6-4789-85be-a1aee90f9fee)
 
+        8.嘗試執行指令沒有任何事情發生於是forward到Terminal
+
+ ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a3933bc2-6344-4c98-894d-734116dae854)
 
