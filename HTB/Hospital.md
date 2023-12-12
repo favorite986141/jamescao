@@ -99,4 +99,11 @@
 
    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ac4e6444-6d20-417f-bec7-3dfe16f754d8)
 
+        21.在瀏覽器中存取
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f8532bc9-da20-4f18-8518-6b26112ea599)
+
+        22.取得root.txt
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/58ef3548-2cf9-4a28-abbf-3443c15606e8)
 
