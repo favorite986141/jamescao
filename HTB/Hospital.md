@@ -48,6 +48,13 @@
   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c470d26e-49dc-4a33-acd8-4c2f64cc5b67)
   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a149f5c1-79bc-49d1-bdc2-a9de0837dc25)
 
+        10.檢查/etc/passwd發現有一個帳號drwilliams並檢查/etc/shadow取得密碼HASH
+
+  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/30ea4899-8445-4014-a893-08cee2fc83a2)
+  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e18ff5be-c1ad-4810-9346-9f0a984c3c0c)
+
+        11.使用John破解密碼hash
+        
+  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3cc58ce7-f92e-4558-8cda-ebde5811d67b)
 
 
-  
