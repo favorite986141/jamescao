@@ -84,6 +84,7 @@
 
    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9c5355f7-0fc5-4c9c-b816-645d2e72606c)
 
-
+  尋找root.txt
+---
 
 
