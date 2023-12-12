@@ -58,3 +58,6 @@
   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3cc58ce7-f92e-4558-8cda-ebde5811d67b)
 
 
+        12.登入web mail並發現了一封來自 Chris Brown [用戶] 的郵件，內容涉及 GhostScript 和 .eps 檔案。我在Google上搜尋了一下，發現了一個[GhostScript指令注入]
+
+   [GhostScript指令注入](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection?source=post_page-----887fd3d6fee9--------------------------------)
