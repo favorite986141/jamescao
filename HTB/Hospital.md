@@ -76,5 +76,11 @@
 
    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d6f59789-26b2-40b3-b917-6375a4ebbbe1)
 
+        16.重複寄信的步驟取得反向shell
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/908dcd6b-565e-4791-917c-16ab05025dd2)
+
+   
+
 
 
