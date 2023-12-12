@@ -1,4 +1,4 @@
-Codify
+Codify Level:Easy
 ===
 尋找user.txt
 ---
