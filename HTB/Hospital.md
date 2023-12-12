@@ -80,7 +80,10 @@
 
    ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/908dcd6b-565e-4791-917c-16ab05025dd2)
 
-   
+        17.取得user.txt
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9c5355f7-0fc5-4c9c-b816-645d2e72606c)
+
 
 
 
