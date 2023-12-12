@@ -46,7 +46,8 @@
   [CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/tree/main)
 
   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c470d26e-49dc-4a33-acd8-4c2f64cc5b67)
-  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/368cd1b2-dc36-45b0-9fda-2172239f6924)
+  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a149f5c1-79bc-49d1-bdc2-a9de0837dc25)
+
 
 
   
