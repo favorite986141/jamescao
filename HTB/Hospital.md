@@ -87,4 +87,16 @@
   尋找root.txt
 ---
 
+        18.在他的文件夾中，得到了一個 GhostScript 檔案和一個密碼。
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/31e3105e-038c-4c8a-a13b-0a6974ff67a3)
+
+        19.嘗試存取正在運行的 Rpcclient。我運行以下命令。您會注意到管理員資訊是與訪客分享的。
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6dc5cb74-8669-46f1-8455-007e36b8c03c)
+
+        20.轉到 C:\xampp\htdocs\。在這裡我看到 Shell.php 存在。我用 PHP Powny Shell 取代了內容。確保啟動存在 Powny Shell 的 Python 伺服器。
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ac4e6444-6d20-417f-bec7-3dfe16f754d8)
+
 
