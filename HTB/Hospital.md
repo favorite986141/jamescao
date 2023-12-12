@@ -63,3 +63,18 @@
    [GhostScript指令注入](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection?source=post_page-----887fd3d6fee9--------------------------------)
   
   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5fa6a873-6279-4a28-9c71-943eec8c8702)
+
+        13.嘗試使用它。製作一個漏洞程序並將其通過郵件發送給受害者，受害者將打開它。
+
+  ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c98c7f9c-7fe0-4d28-b643-7fc99fdb96f5)
+
+        14.嘗試將 Netcat 檔案傳送到受害者的電腦以獲取反向 Shell並確保您的 Python3 伺服器正在運行 Netcat 檔案所在的位置
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9b086e1b-6ddc-4f61-8e76-5414adbca799)
+
+        15.使用它從 Windows 取得反向 Shell
+
+   ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d6f59789-26b2-40b3-b917-6375a4ebbbe1)
+
+
+
