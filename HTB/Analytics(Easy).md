@@ -1,4 +1,4 @@
-Analytics Level:Easy
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5da1b707-8d2e-48ec-ac28-329122e8fe0d)Analytics Level:Easy
 ===
 尋找user.txt
 ---
@@ -34,6 +34,10 @@ Analytics Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9a3fd327-efb9-436a-affe-bff3ea7a563a)
 
+尋找root.txt
+---
 
-
+    8.
+[CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/blob/main/README.md)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d04cd39b-2b4b-4789-9319-9d1a069a31a0)
 
