@@ -37,7 +37,20 @@
 尋找root.txt
 ---
 
-    8.
+    8.22.04.2-Ubuntu有提權漏洞
+    
 [CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/blob/main/README.md)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d04cd39b-2b4b-4789-9319-9d1a069a31a0)
+
+    9.使用exploit.sh進行帳號提權
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b77d37f9-eb26-4c5e-ba66-d5da91d9dcc7)
+
+    10.取得root.txt
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ba776b2b-0e71-42c0-aa52-9e544f2351a9)
+
+
+
+
 
