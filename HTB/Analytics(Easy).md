@@ -11,7 +11,8 @@ Analytics Level:Easy
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0e94d1f6-f1bd-4d9a-a9aa-26037e0c7c67)
 
     3.發現到有一個Login的頁面
-
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/943a500c-131c-46a7-bb5f-39089fac4034)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8c1ad22b-dde3-4698-8e0c-3a9e6e3fdf36)
 
     4.尋找有關Metabase的漏洞，利用metasploit尋找相關漏洞
