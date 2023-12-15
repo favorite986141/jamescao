@@ -17,4 +17,5 @@ Analytics Level:EASY
     4.尋找有關Metabase的漏洞，利用metasploit尋找相關漏洞
 
 [CVE-2023-38646](https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/?source=post_page-----8cf81fa970ca--------------------------------)
+
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9a0a6421-1a4e-4940-83c8-90a6104c196a)
