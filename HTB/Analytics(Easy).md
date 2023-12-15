@@ -1,4 +1,4 @@
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5da1b707-8d2e-48ec-ac28-329122e8fe0d)Analytics Level:Easy
+Analytics Level:Easy
 ===
 尋找user.txt
 ---
