@@ -19,3 +19,9 @@ Analytics Level:EASY
 [CVE-2023-38646](https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/?source=post_page-----8cf81fa970ca--------------------------------)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9a0a6421-1a4e-4940-83c8-90a6104c196a)
+
+    5.使用Metabase漏洞模組
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0e8fb27f-92ac-4b7d-af1c-872fea2a549d)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7e671ff0-1f55-4aa4-abc7-0e31ad1282fb)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/241aae1a-1f9b-46b0-8638-55e01e511ed2)
