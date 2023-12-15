@@ -1,4 +1,4 @@
-Analytics Level:EASY
+Analytics Level:Easy
 ===
 尋找user.txt
 ---
@@ -25,3 +25,15 @@ Analytics Level:EASY
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0e8fb27f-92ac-4b7d-af1c-872fea2a549d)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7e671ff0-1f55-4aa4-abc7-0e31ad1282fb)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/241aae1a-1f9b-46b0-8638-55e01e511ed2)
+
+    6.透過鍵入 env 指令檢查是否有任何環境變數
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9bb94f5b-aaa2-45ba-b2fc-57fc53d49892)
+
+    7.取得帳號密碼登入SSH取得user.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9a3fd327-efb9-436a-affe-bff3ea7a563a)
+
+
+
+
