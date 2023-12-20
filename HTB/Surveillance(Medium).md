@@ -21,5 +21,9 @@ Surveillance Level:Medium
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7360ed1c-96b0-480f-ac43-a87c1ebdfe1d)
 
        5.找到關於CMS version漏洞
-[CVE-2023-41892](https://gist.github.com/gmh5225/8fad5f02c2cf0334249614eb80cbf4ce)
+[CVE-2023-41892-POC](https://gist.github.com/zhsh9/ae0d6093640aa5c82c534ebee80fa1df)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/11a6e496-2be6-49ba-bfab-21d3fb08f15a)
+
+       6.執行POC獲取shell
+
+
