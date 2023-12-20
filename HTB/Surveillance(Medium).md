@@ -28,5 +28,5 @@ Surveillance Level:Medium
        6.執行POC獲取shell
        
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c1eb3f9e-e1bc-49d7-b514-225e46b88867)
-
+**python3 -c "import pty;pty.spawn('/bin/bash')"**
 
