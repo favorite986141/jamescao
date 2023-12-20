@@ -40,7 +40,11 @@ Surveillance Level:Medium
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/134199fe-7f1f-40a6-b4d5-8d92918635bb)
 
-       9.取得admin帳號和破解密碼hash
+       9.取得帳號matthew密碼hash並破解
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/387c9a4e-28c4-4736-b670-3f95ae91214b)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f35ee204-5bfe-4676-97b9-dfad4fd96ba1)
+
+       10.登入ssh尋找user.txt
+       
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d4f9f849-a77c-4d6c-a95c-5796fdd032f5)
