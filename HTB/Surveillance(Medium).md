@@ -22,3 +22,4 @@ Surveillance Level:Medium
 
        5.找到關於CMS version漏洞
 [CVE-2023-41892](https://gist.github.com/gmh5225/8fad5f02c2cf0334249614eb80cbf4ce)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/11a6e496-2be6-49ba-bfab-21d3fb08f15a)
