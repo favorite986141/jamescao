@@ -14,3 +14,4 @@ Surveillance Level:Medium
        3.使用gobuster列舉目錄，找到admin目錄是一個登入畫面
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a91647db-f615-435f-8c1c-6334a8145371)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/92fb70d8-3ba8-41e3-b9bc-39383174eab4)
