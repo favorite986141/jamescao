@@ -60,4 +60,17 @@ Surveillance Level:Medium
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5944cf26-422e-4427-961d-1f449b687815)
 
+       13.ZoneMinder版本有漏洞
+
+[POC for CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bba899c1-02e1-43d5-89f0-83c36e95cd39)
+
+       14.執行script取得shell
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d4832d86-8df5-415a-b8d4-5806f1bf52d6)
+
+       15.在/etc/zm/zm.conf找到DB密碼
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4ae26ac4-8f87-45b0-8698-5c7e199573a5)
+
 
