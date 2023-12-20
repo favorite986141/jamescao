@@ -32,4 +32,13 @@ Surveillance Level:Medium
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9463e5fb-1f81-413d-8e21-fa11a460b01f)
 
+       7.取得資料庫壓縮檔
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8f32ead5-d3ce-4459-949f-f1f12494bafa)
+
+       8.檢視資料庫檔案
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/134199fe-7f1f-40a6-b4d5-8d92918635bb)
+
+       9.取得admin帳號和密碼hash
 
