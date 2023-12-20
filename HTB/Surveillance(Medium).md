@@ -48,3 +48,16 @@ Surveillance Level:Medium
        10.登入ssh尋找user.txt
        
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d4f9f849-a77c-4d6c-a95c-5796fdd032f5)
+
+尋找root.txt
+---
+
+       11.使用sudo -l沒有任何權限，使用netstat發現listen 8080
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/dbf7e56c-992c-4d32-ace1-3b1545274f85)
+
+       12.內網有8080猜測有內網網站，對8080進行proxy，發現是一個ZoneMinder登入頁面
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5944cf26-422e-4427-961d-1f449b687815)
+
+
