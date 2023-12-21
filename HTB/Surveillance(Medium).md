@@ -25,7 +25,7 @@
 [CVE-2023-41892-POC](https://gist.github.com/zhsh9/ae0d6093640aa5c82c534ebee80fa1df)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/11a6e496-2be6-49ba-bfab-21d3fb08f15a)
 
-       6.執行POC獲取shell
+       6.執行script獲取shell
        
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c1eb3f9e-e1bc-49d7-b514-225e46b88867)
 **python3 -c "import pty;pty.spawn('/bin/bash')"**
