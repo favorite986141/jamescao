@@ -1,4 +1,4 @@
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/73de9b35-33f4-4b06-8a5b-398ba7f411f7)Surveillance Level:Medium
+Surveillance Level:Medium
 ===
 尋找user.txt
 ---
