@@ -18,6 +18,8 @@ Domain3 存取控制
 
     3.防止或阻止網路攻擊
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/15a6b15d-7012-4c21-9e0e-6dc7ace16327)
+
 特權存取管理
 
     1.僅在需要時才允許使用管理員權限，從而降低風險
@@ -74,3 +76,20 @@ Domain3 存取控制
      13.捕人陷阱/十字轉門
 
      14.警報
+
+Log terminology:
+
+     1.日誌異常
+
+     2.日誌整合
+
+     3.日誌保留
+
+了解邏輯存取控制
+---
+
+邏輯存取控制類型：
+
+     1.Discretionary access control (DAC)
+     2.Mandatory access control (MAC)
+     3.Role-based access control (RBAC)
