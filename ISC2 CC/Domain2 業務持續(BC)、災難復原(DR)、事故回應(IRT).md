@@ -5,6 +5,7 @@ Domain2 業務持續(BC)、災難復原(DR)、事故回應(IRT)
 ---
 
 Incident Response Terminology:
+
    1.違反
    
    2.事件
