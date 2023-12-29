@@ -74,6 +74,8 @@ Domain 4 網路安全.md
 網路模型:
 
     1.OSI and TCP/IP
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3da81817-cf01-4653-ba93-d7ac86054a8c)
 
 IPv6 是 IPv4 的現代化版本：
 
@@ -136,6 +138,8 @@ IPv6 是 IPv4 的現代化版本：
 Ports and Protocols:
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8054cd2b-d220-4df1-8023-44a2ec5ebc02)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0bf61c98-ee23-4c7a-98d9-e164b1f442c8)
+
 
 我們如何識別威脅：
 
@@ -160,4 +164,50 @@ Ports and Protocols:
      5.NIPS
      
      6.HIPS
+
+了解網路安全基礎設施
+---
+
+資料中心的要求：
+
+    1.Power
     
+    2.HVAC
+    
+    3.Fire Suppression
+    
+    4.Redundancy
+    
+    5.MOU/MOA
+
+雲端服務模式：
+
+    1.SaaS
+    
+    2.IaaS
+    
+    3.PaaS
+
+雲端部署模式：
+
+    1.Public
+    
+    2.Private
+    
+    3.Community
+    
+    4.Hybrid
+
+網路設計術語：
+
+    1.Network Segmentation, e.g., microsegmentation and demilitarized zone (DMZ)
+    
+    2.Virtual Local Area Network (VLAN)
+    
+    3.Virtual Private Network (VPN)
+    
+    4.Defense in Depth
+    
+    5.Zero Trust
+    
+    6.Network Access Control
