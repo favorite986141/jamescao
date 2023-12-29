@@ -33,3 +33,17 @@ Domain 4 網路安全.md
     11.Modems
     12.Access Points
     13.Endpoints (e.g., desktop computer, laptop, cellphone, VOIP, or any other end-user device)
+
+其他網路項目：
+
+    1.Packet
+    2.Port
+    3.Protocol
+    4.Ethernet
+    5.Wi-Fi
+    6.IP address
+    7.MAC address
+
+網路模型:
+
+    1.OSI and TCP/IP
