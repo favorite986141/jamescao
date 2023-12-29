@@ -8,6 +8,9 @@ CIA鐵三角
 
 可用性(Availability):確保資料可以被授權使用者所存取資料
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4496e94d-c454-47a2-be4d-94b680d379ac)
+
+
 風險管理流程
 ---
 
