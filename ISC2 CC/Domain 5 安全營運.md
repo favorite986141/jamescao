@@ -63,6 +63,10 @@
     1.對稱 Symmetric – same key
     
     2.非對稱 Asymmetric – different keys
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/83ed76a5-651e-4c00-bbf1-b842d90f47e1)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/155ead7f-3f4f-4726-bc68-dad1bc29f862)
+
 
 加密HASG的五個功能：
 
@@ -76,6 +80,8 @@
 
     5.確定性：當使用相同的輸入時，相同的輸入將始終產生相同的雜湊值
     
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5eb2130a-f01e-41c8-8820-531dea64901a)
+
 了解系統強化
 ---
 
@@ -88,6 +94,9 @@
      3.變更空置
 
      4.驗證&審核
+     
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/228ede41-a4e2-45bd-847e-2a633366bdc2)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/05099f51-f9d1-438d-bd79-635a5a1d1208)
 
 配置管理的要素：
 
