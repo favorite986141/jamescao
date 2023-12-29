@@ -32,6 +32,8 @@ Incident Response Terminology:
 
     4.事件後活動
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a4d7668f-e470-4ee0-8c25-7d528afc9a90)
+
 業務持續 Business Continuity (BC)
 ---
 
