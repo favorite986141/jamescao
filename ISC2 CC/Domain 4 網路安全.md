@@ -17,3 +17,19 @@ Domain 4 網路安全.md
     9.SAN – Storage Area Network
     10.SAN – System-Area Network
     11.POLAN – Passive Optical Local Area Network
+
+網路設備：
+
+    1.Hubs
+    2.Switches
+    3.Routers
+    4.Firewalls
+    5.Servers
+    6.Printers
+    7.Fax Machines
+    8.Gateways
+    9.Repeaters
+    10.Bridges
+    11.Modems
+    12.Access Points
+    13.Endpoints (e.g., desktop computer, laptop, cellphone, VOIP, or any other end-user device)
