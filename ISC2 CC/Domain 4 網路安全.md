@@ -130,3 +130,34 @@ IPv6 是 IPv4 的現代化版本：
      
      11.Malware
 
+了解網路威脅和攻擊
+---
+
+Ports and Protocols:
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8054cd2b-d220-4df1-8023-44a2ec5ebc02)
+
+我們如何識別威脅：
+
+     1.IDS
+     
+     2.NIDS
+     
+     3.HIDS
+     
+     4.SIEM
+
+我們如何預防威脅：
+
+     1.Antivirus
+     
+     2.Scans
+     
+     3.Firewalls
+     
+     4.IPS
+     
+     5.NIPS
+     
+     6.HIPS
+    
