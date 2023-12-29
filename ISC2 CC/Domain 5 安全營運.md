@@ -6,16 +6,16 @@
 
 資料處理流程：
 
-   1.Create
+    1.Create
    
-   2.Store
+    2.Store
    
-   3.Share
+    3.Share
    
-   4.Use
+    4.Use
    
-   5.Modify
+    5.Modify
    
-   6.Archive
+    6.Archive
    
-   7.Destroy
+    7.Destroy
