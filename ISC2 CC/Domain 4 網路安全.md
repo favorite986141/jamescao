@@ -76,6 +76,8 @@ Domain 4 網路安全.md
     1.OSI and TCP/IP
     
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3da81817-cf01-4653-ba93-d7ac86054a8c)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c5d160c4-2bf0-4d7b-ac0a-8306cf0ec379)
+
 
 IPv6 是 IPv4 的現代化版本：
 
