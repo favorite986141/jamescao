@@ -1,7 +1,7 @@
 Domain2 業務持續(BC)、災難復原(DR)、事故回應(IRT)
 ===
 
-事故回應Incident Response (IR)
+事故回應 Incident Response (IR)
 ---
 
 Incident Response Terminology:
@@ -31,3 +31,20 @@ Incident Response Terminology:
     3.遏制、根除和恢復
 
     4.事件後活動
+
+業務持續 Business Continuity (BC)
+---
+
+業務連續性 (BC) 計劃的組成部分包括：
+
+    1.BCP團隊成員名單，包括多種聯絡方式和備用成員
+
+    2.立即回應程序和檢查表，通知適當的緊急應變機構，
+
+    3.製定BCP的通知系統和呼叫樹
+
+    4.管理指南，包括指定特定管理人員的權限
+
+    5.如何/何時制定計劃
+
+    6.供應鏈關鍵成員（供應商、客戶、可能的外部緊急應變提供者、第三方合作夥伴）
