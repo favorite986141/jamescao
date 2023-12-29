@@ -26,4 +26,38 @@
 
     2.適度限制：使用此敏感標籤外洩資料可能會導致暫時失去競爭優勢、收入損失或計畫中斷投資或活動
 
-    3.低靈敏度（有時稱為“僅供內部使用”）：由此導致資料洩露敏感度標籤可能會導致輕微的中斷、延遲或影響。
+    3.低靈敏度（有時稱為“僅供內部使用”）：由此導致資料洩露敏感度標籤可能會導致輕微的中斷、延遲或影響
+
+    4.不受限制的公開數據：由於這些數據已經公開，因此不會造成任何損害進一步傳播或披露
+
+日誌記錄 - 入口監控工具：
+
+    1.Firewalls
+    
+    2.Gateways
+    
+    3.Remote authentication servers
+    
+    4.IDS/IPS tools
+    
+    5.SIEM solutions
+    
+    6.Anti-malware solutions
+    
+日誌記錄 – 出口監控資料類型：
+
+    1.Email (content and attachments)
+    
+    2.Copy to portable media
+    
+    3.File Transfer Protocol (FTP)
+    
+    4.Posting to web pages/websites
+    
+    5.Applications/application programming interfaces (APIs)
+
+兩種主要的加密類型：
+
+    1.對稱 Symmetric – same key
+    
+    2.非對稱 Asymmetric – different keys
