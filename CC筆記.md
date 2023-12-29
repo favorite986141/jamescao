@@ -61,6 +61,8 @@ CIA鐵三角
 
 行政控制(Administrative controls):透過政策、程序、訓練等其他管理辦法來確保組織資訊安全
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4833acbc-e4be-463e-bb73-c062db363e88)
+
 治理要素
 ---
 
