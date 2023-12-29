@@ -52,6 +52,8 @@ CIA鐵三角
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ec3855d9-096f-48a2-9150-2b311fcf9b53)
 
+**風險等級計算=可能性(Probability) +影響(Impact)**
+
 安全控制
 ---
 
@@ -91,4 +93,4 @@ CIA鐵三角
 
     3.為原則提供勤勉、稱職的服務
 
-**風險等級計算=可能性(Probability) +影響(Impact)**
+
