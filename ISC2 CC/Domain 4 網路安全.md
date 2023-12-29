@@ -70,4 +70,18 @@ IPv6 是 IPv4 的現代化版本：
      7.XSS (Cross Site Scripting)
      8.Privilege Escalation
      9.Insider Threat
-    
+
+網路威脅的類型：
+
+     1.Spoofing
+     2.DoS/DDoS
+     3.Virus
+     4.Worm
+     5.Trojan
+     6.On-Path (Man-in-the-Middle)
+     7.Side-channel
+     8.Phishing
+     9.Rootkit
+     10.Adware/Spyware
+     11.Malware
+
