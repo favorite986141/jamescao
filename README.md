@@ -35,3 +35,4 @@ Jamescao
 
     7. Fix weaknesses from Vulnerability scan report
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c0898343-3935-4ee5-986b-92c1ad6df179)
