@@ -18,6 +18,7 @@ Jamescao
     1.RHCE v6
     2.CEH v11
     3.CISSP
+    4.CC
 
 技能:
 ---
