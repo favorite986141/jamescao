@@ -1,0 +1,1 @@
+awk -F : '($3==0)' /etc/passwd 檢查UID為0的帳號
