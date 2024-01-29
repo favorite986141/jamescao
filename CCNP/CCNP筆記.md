@@ -7,4 +7,6 @@ CCNP筆記
      預設未啟用的等級 2 新增了一些額外的 show 和clear 指令，但不為使用者提供重新設定路由器的機會。
      等級15，允許完全存取所有路由器命令。
 
-     3.
+     3.RIB(Routing Information Base)找尋最佳路徑，FIB(Forwarding Information Base)將最佳路徑組成一個表格
+
+     4.Ansible-managed node:IT 自動化引擎，可自動執行雲端配置、應用程式部署和許多其他IT 需求，並藉由 **SSH** 和 **Python** 進行溝通。
