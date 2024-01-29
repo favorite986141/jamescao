@@ -9,4 +9,6 @@ CCNP筆記
 
      3.RIB(Routing Information Base)找尋最佳路徑，FIB(Forwarding Information Base)將最佳路徑組成一個表格
 
-     4.Ansible-managed node:IT 自動化引擎，可自動執行雲端配置、應用程式部署和許多其他IT 需求，並藉由 **SSH** 和 **Python** 進行溝通。
+     4.Ansible-managed node:IT 自動化引擎，可自動執行雲端配置、應用程式部署和許多其他IT 需求，並藉由 SSH 和 Python 進行溝通。
+
+     5.enterprise SSID hidden防止透漏SSID在WIFI清單中，所以會看不到SSID，除非先前有使用過 
