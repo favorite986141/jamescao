@@ -42,5 +42,15 @@ The output displays OSPF hello messages which router R1 has sent or received on 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a7675df4-3491-4e1f-b462-3cdb81e9c4af)
 
 13.YANG data models:資料模型分為兩部分：資料模型的第一部分定義了網路資料模型，該模型支援定義網路層次結構或網路堆疊（即，彼此分層的網路）和維護清單網路中包含的節點。資料模型的第二部分以描述拓樸資訊的資訊增強基本網路資料模型。
+
 NETCONF 的最低層是安全傳輸層，強制實現的安全傳輸是 Secure Shell (SSH) [RFC6242]。最低的 RESTCONF 層是 HTTPS，強制實施的安全傳輸是 TLS [RFC5246]。
-    
+
+14.Which HTTP status code is the correct response for a request with an incorrect password applied to a REST API session?
+
+HTTP Status Code: 401
+
+15.The login method is configured on the VTY lines of a router with these parameters. 
+. The first method for authentication is TACACS 
+. If TACACS is unavailable, login is allowed without any provided credentials 
+Which configuration accomplishes this task?
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0925247a-7284-446a-9536-c68a7a961a98)
