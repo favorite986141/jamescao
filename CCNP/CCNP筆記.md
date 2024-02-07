@@ -98,4 +98,5 @@ a) Signal
 b) Noise
 
 RSSI (Received Signal Strength Indicator) 是訊號值的更常見名稱。這是一個設備正在聆聽另一台設備的強度
-noise floor本底噪聲是無線環境中存在的背景噪音水準。它代表所有乾擾訊號、熱雜訊和其他雜訊源的總功率。
+
+noise floor本底噪聲是無線環境中存在的背景噪音水準。它代表所有乾擾訊號、熱雜訊和其他雜訊源的總功率
