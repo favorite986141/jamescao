@@ -27,4 +27,6 @@ CCNP筆記
 8.NGFW FTD
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/83a49b5e-efcc-42d4-b5a4-fc5edd47c0f6)
 
+9.VRF 是 IP 路由的擴展，提供多個路由實例。它提供了一個獨立的IP路由和轉發表到每個 VPN，並與 MP-iBGP（多協定內部BGP）在提供者設備 (PE) 路由器之間提供第 3 層 MPLS-VPN
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/caa6dfb5-04ac-4597-98ea-1461c87806fa)
 
