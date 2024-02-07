@@ -68,3 +68,8 @@ By default, the RP is needed only to start new sessions with sources and receive
 Which EtherChannel mode must be configured on the switch to allow the WLC to connect?
 
 have LAG on WLC, then ETHERCHANNEL must be configured **on** the switch Wireless LAN Controller 
+
+18.Which feature does Cisco TrustSec use to provide scalable, secure communication throughout a network?
+
+security group tag number assigned to each port on a network
+
