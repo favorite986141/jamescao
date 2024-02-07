@@ -100,3 +100,39 @@ b) Noise
 RSSI (Received Signal Strength Indicator) 是訊號值的更常見名稱。這是一個設備正在聆聽另一台設備的強度
 
 noise floor本底噪聲是無線環境中存在的背景噪音水準。它代表所有乾擾訊號、熱雜訊和其他雜訊源的總功率
+
+23.Which statements are used for error handling in Python?
+
+try/except
+
+24.What are two benefits of virtualizing the server with the use of VMs in a data center environment?
+
+reduced rack space, power, and cooling requirements
+
+speedy deployment 
+
+25.Which two steps are required for a complete Cisco DNA Center upgrade?
+
+Procedure
+
+Step 1
+
+A system update appears on the Software Updates page. Click Update.
+
+Step 2
+
+After the system update is complete, at the top of the Application Updates field, click Download All.
+
+system update application updates 
+
+The packages begin downloading.
+
+Step 3
+
+After the packages are downloaded, at the top of the Application Updates field, click Update All.
+
+The packages begin updating.
+
+Step 4
+
+Ensure that each application has been updated by reviewing its version in the Installed Apps page
