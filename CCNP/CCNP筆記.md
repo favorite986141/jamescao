@@ -38,6 +38,6 @@ CCNP筆記
 
 The output displays OSPF hello messages which router R1 has sent or received on interface Fa0/1.
 
-12.LISP:使用動態隧道封裝方法，而不需要預先設定隧道端點。它設計用於在多宿主環境中工作，並支援 LISP 和非 LISP 站點之間的通訊以實現互通。
+12.LISP(Locator/ID Separation Protocol):使用動態隧道封裝方法，而不需要預先設定隧道端點。它設計用於在多宿主環境中工作，並支援 LISP 和非 LISP 站點之間的通訊以實現互通。
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a7675df4-3491-4e1f-b462-3cdb81e9c4af)
 
