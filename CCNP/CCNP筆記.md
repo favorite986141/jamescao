@@ -30,3 +30,6 @@ CCNP筆記
 9.VRF 是 IP 路由的擴展，提供多個路由實例。它提供了一個獨立的IP路由和轉發表到每個 VPN，並與 MP-iBGP（多協定內部BGP）在提供者設備 (PE) 路由器之間提供第 3 層 MPLS-VPN
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/caa6dfb5-04ac-4597-98ea-1461c87806fa)
 
+10.Cisco TrustSec:
+分類和策略執行功能嵌入在Cisco® 交換、路由、無線 LAN 和防火牆產品。
+透過流量分類基於端點與其 IP 位址的上下文身份，Cisco TrustSec為動態網路環境和資料提供更靈活的存取控制中心。
