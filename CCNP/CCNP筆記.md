@@ -52,9 +52,13 @@ HTTP Status Code: 401
 15.The login method is configured on the VTY lines of a router with these parameters. 
 
 . The first method for authentication is TACACS 
+
 . If TACACS is unavailable, login is allowed without any provided credentials 
 
 Which configuration accomplishes this task?
+
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0925247a-7284-446a-9536-c68a7a961a98)
 
-16.
+16.RP(Rendezvous Point): required only in networks running Protocol Independent Multicast sparse mode (PIM-SM)
+
+By default, the RP is needed only to start new sessions with sources and receivers.
