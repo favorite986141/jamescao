@@ -22,4 +22,5 @@ CCNP筆記
        Point-to-Multipoint
        Point-to-Multipoint Non-Broadcast
        Point-to-Point
+       哪些 OSPF 網路類型相容並允許透過兩個對等設備進行通訊？broadcast to nonbroadcast 
 
