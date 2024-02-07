@@ -15,3 +15,11 @@ CCNP筆記
 
      6.FlexConnect mode:Client能夠透過廣域網路 (WAN) 連結從公司辦公室配置和控制分公司或遠端辦公室的存取點，而無需在每個辦公室部署控制器。
        FlexConnect 存取點可在本機切換用戶端資料流量，並在與控制器的連線遺失時在本機執行用戶端驗證。當它們連接到控制器時，它們還可以將流量發送回控制器。
+
+     7.OSPF 有 5 種網路類型:
+       Non-Broadcast
+       Broadcast
+       Point-to-Multipoint
+       Point-to-Multipoint Non-Broadcast
+       Point-to-Point
+
