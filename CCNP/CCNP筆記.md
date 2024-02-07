@@ -138,3 +138,7 @@ The packages begin updating.
 Step 4
 
 Ensure that each application has been updated by reviewing its version in the Installed Apps page
+
+26.What is a benefit of data modeling languages like YANG? 
+
+They provide a standardized data structure, which results in configuration scalability and consistency
