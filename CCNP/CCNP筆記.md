@@ -149,3 +149,21 @@ They provide a standardized data structure, which results in configuration scala
 
 請注意，在 JSON 中，true 和 false 都是小寫
 
+28.Based on this interface configuration, what is the expected state of OSPF adjacency?
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/62d2b0ee-14c1-4409-b9df-5d53e3a0a285)
+
+- Hallo & Dead timer must match
+                                                                                                 
+- Area id must match
+  
+- Auth type & Auth Data must match
+  
+- Subnet mask must match
+  
+- MTU Size must match
+  
+- Stub Flag must match
+  
+- Router ID must not match
+
