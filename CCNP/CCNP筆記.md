@@ -41,3 +41,6 @@ The output displays OSPF hello messages which router R1 has sent or received on 
 12.LISP(Locator/ID Separation Protocol):使用動態隧道封裝方法，而不需要預先設定隧道端點。它設計用於在多宿主環境中工作，並支援 LISP 和非 LISP 站點之間的通訊以實現互通。
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a7675df4-3491-4e1f-b462-3cdb81e9c4af)
 
+13.YANG data models:資料模型分為兩部分：資料模型的第一部分定義了網路資料模型，該模型支援定義網路層次結構或網路堆疊（即，彼此分層的網路）和維護清單網路中包含的節點。資料模型的第二部分以描述拓樸資訊的資訊增強基本網路資料模型。
+NETCONF 的最低層是安全傳輸層，強制實現的安全傳輸是 Secure Shell (SSH) [RFC6242]。最低的 RESTCONF 層是 HTTPS，強制實施的安全傳輸是 TLS [RFC5246]。
+    
