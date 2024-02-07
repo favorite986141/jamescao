@@ -113,6 +113,8 @@ speedy deployment
 
 25.Which two steps are required for a complete Cisco DNA Center upgrade?
 
+system update application updates 
+
 Procedure
 
 Step 1
