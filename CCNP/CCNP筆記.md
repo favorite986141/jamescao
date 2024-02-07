@@ -178,3 +178,8 @@ Which command should be entered on the ports that are connected to Link2 to reso
 每當接收相同通告成本並想要選擇 RP 的兩個連接埠上發生平局時，從具有較低優先權的上游交換器連接埠接收 bpdu 的連接埠將贏得競爭並成為根連接埠。
 
 Enter spanning-tree port-priority 32 on SW1.
+
+30.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b708813b-eaba-431d-9dfe-daa1702f40cb)
+
+{“switch”: {“name”: “dist1”, “interfaces”: [“gig1”, “gig2”, “gig3”]}} 
+
