@@ -83,4 +83,10 @@ Which feature allows the legacy clients to connect while still allowing other cl
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/597ddaca-9a82-4705-9818-3873955624ad)
 
+21.A network administrator is implementing a routing configuration change and enables routing debugs to track routing behavior during the change. The logging output on the terminal is interrupting the command typing process.
 
+Which two actions can the network administrator take to minimize the possibility of typing commands incorrectly?
+
+Configure the logging synchronous command under the vty. 
+
+Press the TAB key to reprint the command in a new line. 
