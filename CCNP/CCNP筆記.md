@@ -24,3 +24,7 @@ CCNP筆記
        Point-to-Point
        哪些 OSPF 網路類型相容並允許透過兩個對等設備進行通訊？broadcast to nonbroadcast 
 
+     8.NGFW FTD
+     ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/83a49b5e-efcc-42d4-b5a4-fc5edd47c0f6)
+
+
