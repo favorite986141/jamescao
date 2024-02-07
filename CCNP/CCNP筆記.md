@@ -142,3 +142,10 @@ Ensure that each application has been updated by reviewing its version in the In
 26.What is a benefit of data modeling languages like YANG? 
 
 They provide a standardized data structure, which results in configuration scalability and consistency
+
+27.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/69340562-8a62-4025-aa00-769eb80c88de)
+
+{"Name": "Bob Johnson", "Age": 75, "Alive": true, "Favorite Foods": ["Cereal", "Mustard", "Onions"]} 
+
+請注意，在 JSON 中，true 和 false 都是小寫
+
