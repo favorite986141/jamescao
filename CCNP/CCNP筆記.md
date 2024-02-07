@@ -62,3 +62,9 @@ Which configuration accomplishes this task?
 16.RP(Rendezvous Point): required only in networks running Protocol Independent Multicast sparse mode (PIM-SM)
 
 By default, the RP is needed only to start new sessions with sources and receivers.
+
+17.To increase total throughput and redundancy on the links between the wireless controller and switch, the customer enabled LAG on the wireless controller. 
+
+Which EtherChannel mode must be configured on the switch to allow the WLC to connect?
+
+have LAG on WLC, then ETHERCHANNEL must be configured **on** the switch Wireless LAN Controller 
