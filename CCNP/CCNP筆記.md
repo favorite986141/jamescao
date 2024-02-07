@@ -73,3 +73,14 @@ have LAG on WLC, then ETHERCHANNEL must be configured **on** the switch Wireless
 
 security group tag number assigned to each port on a network
 
+19.An engineer configures a WLAN with fast transition enabled. Some legacy clients fail to connect to this WLAN.
+
+Which feature allows the legacy clients to connect while still allowing other clients to use fast transition based on their OUIs?
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4cd64bb2-fcda-463f-9613-e6c0f47f81e7)
+
+20.Which exhibit displays a valid JSON file?
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/597ddaca-9a82-4705-9818-3873955624ad)
+
+
