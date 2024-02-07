@@ -33,3 +33,7 @@ CCNP筆記
 10.Cisco TrustSec:
 分類和策略執行功能嵌入在Cisco® 交換、路由、無線 LAN 和防火牆產品。
 透過流量分類基於端點與其 IP 位址的上下文身份，Cisco TrustSec為動態網路環境和資料提供更靈活的存取控制中心。
+
+11.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/088dd7b1-93db-4d81-bef2-b9f566421bfa)
+The output displays OSPF hello messages which router R1 has sent or received on interface Fa0/1.
+
