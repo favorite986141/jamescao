@@ -153,6 +153,8 @@ They provide a standardized data structure, which results in configuration scala
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/62d2b0ee-14c1-4409-b9df-5d53e3a0a285)
 
+not established
+
 - Hallo & Dead timer must match
                                                                                                  
 - Area id must match
@@ -166,4 +168,11 @@ They provide a standardized data structure, which results in configuration scala
 - Stub Flag must match
   
 - Router ID must not match
+
+29.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5de43ef9-7d54-4bd2-9baa-6db9162fc1fa)
+
+Link1 is a copper connection and Link2 is a fiber connection. The fiber port must be the primary port for all forwarding. The output of the show spanning-tree command on SW2 shows that the fiber port is blocked by spanning tree. An engineer enters the spanning-tree port-priority 32 command on G0/1 on SW2, but the port remains blocked.
+
+Which command should be entered on the ports that are connected to Link2 to resolve the issue?
+
 
