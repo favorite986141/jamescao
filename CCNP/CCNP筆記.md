@@ -253,3 +253,9 @@ VRF 全名「Virtual routing and forwarding」，是一種擁有獨立路由表�
 預設 VRF 對所有 show 指令使用預設路由上下文。
 
 預設 VRF 類似於 Cisco IOS 中的全域路由表概念。
+
+41.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/925beccb-5ee3-4501-80b4-8222505a0045)
+
+text string 
+
+PSK = preshare key = a text string
