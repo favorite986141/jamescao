@@ -198,4 +198,5 @@ rogue AP
 32.When using TLS for syslog, which configuration allows for secure and reliable transportation of messages to its default port?
 
 logging host 10.2.3.4 vrf mgmt transport tcp port 6514 
+
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2485c593-132b-4723-9f67-686d9b3492d9)
