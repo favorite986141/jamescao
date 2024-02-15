@@ -20,7 +20,7 @@ CCNP筆記
  Non-Broadcast
  Boadcast
  Point-to-Multipoint
- oint-to-Multipoint Non-Broadcast
+ Point-to-Multipoint Non-Broadcast
  Point-to-Point
  哪些 OSPF 網路類型相容並允許透過兩個對等設備進行通訊？broadcast to nonbroadcast 
 
