@@ -216,3 +216,7 @@ HTTPS
 notification
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8a4842da-8002-469e-9ae9-2043b5f55f21)
+
+36.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e9700f8b-f4b7-49dc-8c30-fd2483941af9)
+
+192.168.101.18 
