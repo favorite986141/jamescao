@@ -222,3 +222,17 @@ notification
 192.168.101.18 
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/00d87b56-c4d7-4135-a635-a04e2fac1b8a)
+
+37.Which PAgP mode combination prevents an EtherChannel from forming?
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/5ec25901-ac1d-436c-8961-d533270690e5)
+
+38.If a VRRP master router fails, which router is selected as the new master router?
+
+router with the highest priority 
+
+如果虛擬路由器有多個備援VRRP 路由器，則當目前Master 發生故障時，優先權決定哪一個備援VRRP 路由器將被指定為Master。
+
+優先順序較高而被選舉為虛擬路由器Master。如果兩者的優先權相同，則選擇IP位址值較高的一個作為虛擬路由器主設備。
+
+Virtual Router Redundancy Protocol，縮寫為VRRP虛擬路由器冗餘協定
