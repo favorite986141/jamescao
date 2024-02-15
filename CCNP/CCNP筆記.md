@@ -236,3 +236,20 @@ router with the highest priority
 優先順序較高而被選舉為虛擬路由器Master。如果兩者的優先權相同，則選擇IP位址值較高的一個作為虛擬路由器主設備。
 
 Virtual Router Redundancy Protocol，縮寫為VRRP虛擬路由器冗餘協定
+
+39.Which QoS component alters a packet to change the way that traffic is treated in the network
+
+marking
+
+標記網路流量可讓您設定或修改屬於特定類別或類別的流量（即封包）的屬性。
+
+40.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2b2fcd5a-51d7-40bd-88cd-30f5967e0823)
+
+VRF 全名「Virtual routing and forwarding」，是一種擁有獨立路由表跟三層隔離的網路，我們也可以稱其為虛擬路由轉發。
+
+預設 VRF：
+所有第 3 層介面都存在於預設 VRF 中，直到它們被指派給另一個 VRF。除非指定另一個 VRF 上下文，否則路由協定在預設 VRF 上下文中運作。
+
+預設 VRF 對所有 show 指令使用預設路由上下文。
+
+預設 VRF 類似於 Cisco IOS 中的全域路由表概念。
