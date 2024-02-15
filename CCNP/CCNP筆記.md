@@ -259,3 +259,53 @@ VRF 全名「Virtual routing and forwarding」，是一種擁有獨立路由表�
 text string 
 
 PSK = preshare key = a text string
+
+42.Which two mechanisms are available to secure NTP?
+
+encrypted authentication 
+
+IP access list-based 
+
+43.secure communication channel for all traffic at Layer 2 of the OSI model
+
+MACsec 
+
+44.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/37b1c21a-564c-4ec0-9dd0-e6e6f6e8a063)
+
+Access control lists that are applied outbound to a router interface do not affect traffic that is sourced from the router. 
+
+45.Which two methods are used by an AP that is trying to discover a wireless LAN controller
+
+DHCP Option 43 
+
+broadcasting on the local subnet 
+
+46.Which IP SLA operation requires the IP SLA responder to be configured on the remote end
+
+UDP jitter
+
+在來源裝置上設定 UDP 抖動操作之前，必須在目標裝置（操作目標）上啟用 IP SLA 回應程式。
+
+47.Which statement explains why Type 1 hypervisor is considered more efficient than Type2 hypervisor
+
+Type 1 hypervisor runs directly on the physical hardware of the host machine without relying on the underlying OS
+
+48.A client with IP address 209.165.201.25 must access a web server on port 80 at 209.165.200.225. To allow this traffic, an engineer must add a statement to an access control list that is applied in the inbound direction on the port connecting to the web server.
+Which statement allows this traffic
+
+permit tcp host 209.165.200.225 eq 80 host 209.165.201.25
+
+49.In OSPF, which LSA type is responsible for pointing to the ASBR router
+
+type 4
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7f456b70-9cfb-4276-afa4-6fc83f19c099)
+
+50.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/29cd652c-1fe3-40a6-ab70-c8f0c2ed9961)
+
+SW1(config)#vtp pruning
+
+VTP pruning should only be enabled on VTP servers, all the clients in the VTP domain will automatically enable VTP pruning
+
+VLAN Trunking Protocol (VTP) 虛擬區域網絡中繼協定
+
