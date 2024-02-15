@@ -207,4 +207,10 @@ Hot Standby Redundancy Protocol (HSRP)熱備份路由器協定:當主要的閘�
 
 Each HSRP group reinitializes because the virtual MAC address has changed
 
- 
+34.Which protocol does REST API rely on to secure the communication channel?
+
+HTTPS
+
+35.![圖片](https://github.com/favorite986141/jamescao/assets/125249893/151f7387-4a81-4ff8-828e-8100e0ad4906)
+
+notification
