@@ -200,3 +200,11 @@ rogue AP
 logging host 10.2.3.4 vrf mgmt transport tcp port 6514 
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2485c593-132b-4723-9f67-686d9b3492d9)
+
+33.Which behavior can be expected when the HSRP version is changed from 1 to 2?
+
+Hot Standby Redundancy Protocol (HSRP)熱備份路由器協定:當主要的閘道器失效時，可以利用這個協定，進行故障移轉（failover），讓備援的閘道器執行原有閘道器的功能，以保持預設閘道器（default gateway）的功能正常。
+
+Each HSRP group reinitializes because the virtual MAC address has changed
+
+ 
