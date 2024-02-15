@@ -17,11 +17,17 @@ CCNP筆記
        FlexConnect 存取點可在本機切換用戶端資料流量，並在與控制器的連線遺失時在本機執行用戶端驗證。當它們連接到控制器時，它們還可以將流量發送回控制器。
 
 7.OSPF 有 5 種網路類型:
+
  Non-Broadcast
+ 
  Boadcast
+ 
  Point-to-Multipoint
+ 
  Point-to-Multipoint Non-Broadcast
+ 
  Point-to-Point
+ 
  哪些 OSPF 網路類型相容並允許透過兩個對等設備進行通訊？broadcast to nonbroadcast 
 
 8.NGFW FTD
