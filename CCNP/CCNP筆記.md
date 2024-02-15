@@ -189,3 +189,8 @@ Enter spanning-tree port-priority 32 on SW1.
 
 {“switch”: {“name”: “dist1”, “interfaces”: [“gig1”, “gig2”, “gig3”]}} 
 
+31.What are two common sources of interference for Wi-Fi networks?
+
+radar
+
+rogue AP
