@@ -17,7 +17,7 @@ Bizness Level:Easy
 
 4.找到OFBiz相關CVE，使用CVE-2023-514467.py確認有弱點
 
-(CVE-2023-514467)[https://github.com/K3ysTr0K3R/CVE-2023-51467-EXPLOIT]
+[CVE-2023-514467](https://github.com/K3ysTr0K3R/CVE-2023-51467-EXPLOIT)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/37d73a71-2a9f-4d15-a9c7-eef46180fdf3)
 
