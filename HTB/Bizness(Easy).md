@@ -64,3 +64,9 @@ https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4f40b52d-6b89-49fe-86e0-940e2e9a0eb2)
 
 urlSafe - 我們不發出“+”和“/”，而是分別發出“-”和“_”。
+
+11.將取得的Hash - _ 替換成+ / 再透過 CyberChef轉換成16進制
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7cea8d5c-b580-4bff-b80c-40923acb5a91)
+
+12.分析取得的Hash
