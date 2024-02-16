@@ -30,5 +30,6 @@ Bizness Level:Easy
 6.找到user.txt
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2fd109cf-b3c2-4319-94c0-3d881b838e94)
+
 尋找root.txt
 ---
