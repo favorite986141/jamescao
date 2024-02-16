@@ -21,6 +21,8 @@ Bizness Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/037a5768-e02c-4fa6-8e7d-5a3a87f66741)
 
-5.找到另一個CVE POC
+5.找到另一個CVE POC，使用exploit.py reverse shell
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2c6619b3-80fa-4665-9488-8133ebfd4080)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f635049d-75a4-4c94-b723-0a1ad91788b0)
