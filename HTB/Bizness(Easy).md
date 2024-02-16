@@ -69,4 +69,8 @@ urlSafe - 我們不發出“+”和“/”，而是分別發出“-”和“_”
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7cea8d5c-b580-4bff-b80c-40923acb5a91)
 
-12.分析取得的Hash
+12.使用hashcat破解該密碼。需要在後面加上鹽： hash:salt，取得密碼
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/83089766-adfe-4887-b767-d58e164e592c)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0aea3425-a747-4753-b222-23f57e017c4a)
