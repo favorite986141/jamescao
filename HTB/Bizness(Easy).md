@@ -15,6 +15,8 @@ Bizness Level:Easy
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b8bdab0-2f46-42a6-8f02-aafab0ad2b67)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/96a7e3fd-3b7e-4daa-a853-2df11db01b15)
 
-4.找到OFBiz相關CVE
+4.找到OFBiz相關CVE，使用CVE-2023-514467.py確認有弱點
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/37d73a71-2a9f-4d15-a9c7-eef46180fdf3)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/037a5768-e02c-4fa6-8e7d-5a3a87f66741)
