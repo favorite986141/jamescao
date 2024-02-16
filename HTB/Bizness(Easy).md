@@ -44,3 +44,6 @@ ofbiz/framework/resources/templates」目錄是OFBiz框架內的特定目錄結�
 為什麼會翻到這個路徑/opt/ofbiz/runtime/data/derby/ofbiz/seg0，因為shell一進來的/opt/ofbiz是Apache OFBiz的安裝目錄，/runtime/目錄是儲存資料文件，包含Derby資料庫文件，/seg0/是子目錄
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d5014763-9ce9-4646-b068-d9986aefbdbc)
+
+9.搜尋password找到hash
+     grep -arin -o -E '(\w+\W+){0,5}password(\W+\w+){0,5}' .
