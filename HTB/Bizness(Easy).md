@@ -54,3 +54,13 @@ ofbiz/framework/resources/templates」目錄是OFBiz框架內的特定目錄結�
 10.根據Apache OFbiz的官方文件（實際上是原始碼中的HashCrypt.java）
 
 https://github.com/apache/ofbiz-framework/blob/trunk/framework/base/src/main/java/org/apache/ofbiz/base/crypto/HashCrypt.java
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/97a43e45-8c24-4f95-8402-587d0a33e5ed)
+
+加密結果採用了encodeBase64URLSafeString()方法對hash資料進行了編碼。而根據apache公告代碼API顯示： 
+
+https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/binary/Base64.html
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4f40b52d-6b89-49fe-86e0-940e2e9a0eb2)
+
+urlSafe - 我們不發出“+”和“/”，而是分別發出“-”和“_”。
