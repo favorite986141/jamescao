@@ -14,3 +14,7 @@ Bizness Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b8bdab0-2f46-42a6-8f02-aafab0ad2b67)
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/96a7e3fd-3b7e-4daa-a853-2df11db01b15)
+
+4.找到OFBiz相關CVE
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/37d73a71-2a9f-4d15-a9c7-eef46180fdf3)
