@@ -13,3 +13,4 @@ Bizness Level:Easy
 3.使用dirbuster爆破目錄，找到登入畫面
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b8bdab0-2f46-42a6-8f02-aafab0ad2b67)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/96a7e3fd-3b7e-4daa-a853-2df11db01b15)
