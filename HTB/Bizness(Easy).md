@@ -51,5 +51,6 @@ ofbiz/framework/resources/templates」目錄是OFBiz框架內的特定目錄結�
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a04fbd62-3c48-4b39-917b-f7db87829848)
 
-10.根據Apache OFbiz的官方文件（實際上是原始碼中的HashCrypt.java） 
-https://github.com/apache/ofbiz-framework/blob/trunk/framework/base/src/main/java/org/apache/ ofbiz/base/crypto/HashCrypt.java
+10.根據Apache OFbiz的官方文件（實際上是原始碼中的HashCrypt.java）
+
+https://github.com/apache/ofbiz-framework/blob/trunk/framework/base/src/main/java/org/apache/ofbiz/base/crypto/HashCrypt.java
