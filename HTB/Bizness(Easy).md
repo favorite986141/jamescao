@@ -74,3 +74,11 @@ urlSafe - 我們不發出“+”和“/”，而是分別發出“-”和“_”
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/83089766-adfe-4887-b767-d58e164e592c)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0aea3425-a747-4753-b222-23f57e017c4a)
+
+13.透過破解的密碼登入root
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2902bb83-fc2b-4a1b-8d89-395aeb02351f)
+
+14.找到root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/cc319913-5ff4-46d1-be91-50be51556f05)
