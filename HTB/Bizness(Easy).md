@@ -33,3 +33,6 @@ Bizness Level:Easy
 
 尋找root.txt
 ---
+7.搜尋到AdminUserLoginData.xml，內容包含login id和password屬性
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a9365a71-8ad0-4b4e-b8f8-c4ce7d5ec48e)
