@@ -48,3 +48,5 @@ ofbiz/framework/resources/templates」目錄是OFBiz框架內的特定目錄結�
 9.搜尋password找到hash
 
        grep -arin -o -E '(\w+\W+){0,5}password(\W+\w+){0,5}' .
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a04fbd62-3c48-4b39-917b-f7db87829848)
