@@ -26,3 +26,8 @@ Bizness Level:Easy
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2c6619b3-80fa-4665-9488-8133ebfd4080)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f635049d-75a4-4c94-b723-0a1ad91788b0)
+
+6.找到user.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2fd109cf-b3c2-4319-94c0-3d881b838e94)
+
