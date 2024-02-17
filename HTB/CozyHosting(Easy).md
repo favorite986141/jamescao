@@ -82,4 +82,4 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1aa189e9-4cf6-4c3a-a9e2-62c70a61938e)
 
-19.到(gtfobins)[https://gtfobins.github.io/gtfobins/ssh/#sudo]
+19.到[gtfobins](https://gtfobins.github.io/gtfobins/ssh/#sudo)
