@@ -34,8 +34,13 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1d0621b2-8094-4c44-b98c-00f323093450)
 
-8.在當前目錄下沒有user.txt但發現有一個jar包，將jar包載下來並反編譯
+8.在當前目錄下沒有user.txt但發現有一個jar包，將jar包載下來
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bb41f8bb-e22f-433a-b1ce-b32306443242)
 
-9.
+9.解開jar包，使用grep 找出postgres的密碼
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/70c02312-0773-4199-9b55-d07483c3b52e)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ceb7f02e-d4a9-4d8a-b0b4-df1927125c9e)
+
