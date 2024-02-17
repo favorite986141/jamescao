@@ -52,4 +52,11 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8e466690-9663-4a26-9d5b-65bdaf120231)
 
+12.可以看到兩個表hosts、users，關注users這張表
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d3ecc83f-5181-42a6-8051-8cd4b655f1a2)
+
+13.找到了兩個帳號
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f063f5cf-559a-4c8a-a5a0-25b65bc1fd74)
 
