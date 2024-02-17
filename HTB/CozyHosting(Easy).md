@@ -64,5 +64,13 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e7ef2237-92cb-450e-a256-d4c2d7967ae0)
 
+15.試了三次都失敗，可能不是admin的密碼
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0495abd2-5ef2-48f8-b12c-1bfeec816f38)
+
+16.檢查/etc/passwd，發現還有josh帳號，使用josh登入成功
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1737df42-4cfd-4387-b9bc-1400f818da4e)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3363ba3a-7f98-44ca-86e0-8790d239b30f)
 
