@@ -74,3 +74,12 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/3363ba3a-7f98-44ca-86e0-8790d239b30f)
 
+17.找到user.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7d3bcc1e-2246-4153-b22f-f8770b666be5)
+
+18.執行sudo -l發現SSH 可以使用 root 權限執行。
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1aa189e9-4cf6-4c3a-a9e2-62c70a61938e)
+
+19.到(gtfobins)[https://gtfobins.github.io/gtfobins/ssh/#sudo]
