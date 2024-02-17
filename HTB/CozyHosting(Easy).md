@@ -33,3 +33,9 @@
 7.最後輸入script /dev/null -c bash，將輸出記錄到/dev/null就會被拋棄。這樣執行的命令不會在目標上留下任何痕跡
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/1d0621b2-8094-4c44-b98c-00f323093450)
+
+8.在當前目錄下沒有user.txt但發現有一個jar包，將jar包載下來並反編譯
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/bb41f8bb-e22f-433a-b1ce-b32306443242)
+
+9.
