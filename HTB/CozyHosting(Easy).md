@@ -60,3 +60,9 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f063f5cf-559a-4c8a-a5a0-25b65bc1fd74)
 
+14.破解admin密碼
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e7ef2237-92cb-450e-a256-d4c2d7967ae0)
+
+
+
