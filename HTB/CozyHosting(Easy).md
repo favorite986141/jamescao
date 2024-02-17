@@ -11,3 +11,7 @@ CozyHosting Level:Easy
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/969ec080-c913-4f63-b819-1aa035fd5303)
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a068678f-5ba5-48ce-8923-3fc98f91c180)
+
+3.透過session cookie登入Web
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/df05fe7b-4e80-4c59-b946-eb1746901947)
