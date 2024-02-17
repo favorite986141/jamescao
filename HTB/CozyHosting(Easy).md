@@ -44,3 +44,12 @@
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ceb7f02e-d4a9-4d8a-b0b4-df1927125c9e)
 
+10.看到postgres服務是開啟的
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f184b159-513c-465a-99e8-3d963383a0e3)
+
+11.連入postgres
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8e466690-9663-4a26-9d5b-65bdaf120231)
+
+
