@@ -15,3 +15,8 @@ CozyHosting Level:Easy
 3.透過session cookie登入Web
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/df05fe7b-4e80-4c59-b946-eb1746901947)
+
+4.找到疑似可執行ssh，透過burpsuite抓包測試確認可以執行指令
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/f05c4cc3-a6d0-4d1f-bfd4-33d3ab5bcc4e)
+
