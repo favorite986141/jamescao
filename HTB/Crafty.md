@@ -42,5 +42,16 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b7d546bd-d42f-483b-81d7-24f192eb4cc6)
 
-    9.
+    9.執行mc工具，出現連接後輸入LDAP位置
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/db107bb6-81f3-4335-9ff5-21535330d8af)
+
+    10.log4j會出現200，nc就會成功反彈shell
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/908cdb72-8770-4997-bf80-6b79d9b29319)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/23f5dcf6-c18b-458d-8d54-4c19a9c83522)
+
+
+
     
