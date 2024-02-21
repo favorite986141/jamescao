@@ -1,4 +1,4 @@
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/ca53d48d-8c3e-4d90-9c0b-5992be7d2797)CozyHosting Level:Easy
+CozyHosting Level:Easy
 ===
 尋找user.txt
 ---
