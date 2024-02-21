@@ -105,6 +105,9 @@ Crafty Level:Easy
     21.將exp2.exe和RunasCs.exe上傳，出現timeout的情況
     輸入sessions --interact 2 --timeout 10000
     
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/7badefff-d203-4367-b8ab-ec93911603f9)
+   
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9b5150da-83db-413f-b130-838e517b3753)
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4424786b-c1d8-458c-b1f7-5c6ef6641530)
 
