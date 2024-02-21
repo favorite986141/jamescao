@@ -111,3 +111,24 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4424786b-c1d8-458c-b1f7-5c6ef6641530)
 
+    22.打開新的連接
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/a1c10ce6-5758-4182-8584-8715663342dc)
+
+    23.從Windows執行RunasCs.exe執行reverse shell到msf
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6cf20b32-0d8a-461c-b993-0a24d4af1ced)
+
+    24.建立連接並權限提升
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b7ddcd15-1714-4e3e-9f40-cbe585a3005a)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/693ece46-1b60-4e17-9407-2d249ccfd3bd)
+
+    25.找到root.txt
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2b12689d-8835-4e7f-9d9a-a598fd7f855f)
+
+
+
+
