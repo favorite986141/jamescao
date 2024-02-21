@@ -4,7 +4,7 @@ Crafty Level:Easy
 ---
     1.執行Nmap蒐集資訊
     
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2818b273-5925-4520-be74-b2630292fae0)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/fcb9fa95-f96f-4688-88d0-ef140cf168a6)
 
     2.目錄列舉，發現一個js資料夾是403
 
