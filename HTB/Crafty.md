@@ -29,4 +29,8 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/216407a1-9d28-4028-87dd-07ea685ce016)
 
+    6.修改poc.py，因系統為Windows所以改成cmd.exe
+    
+ ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6fd8f14f-7aa9-4cac-afb0-e598f6603cd4)
+
     
