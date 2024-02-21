@@ -92,7 +92,7 @@ Crafty Level:Easy
 
     19.找到RunasCs工具
     
-[RunasCs] ([https://github.com/antonioCoco/RunasCs](https://github.com/antonioCoco/RunasCs/releases))
+[RunasCs]([https://github.com/antonioCoco/RunasCs](https://github.com/antonioCoco/RunasCs/releases))
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/0b15b409-49bf-48cb-8a41-a521f69537ff)
 
