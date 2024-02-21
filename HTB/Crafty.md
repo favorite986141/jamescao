@@ -31,6 +31,16 @@ Crafty Level:Easy
 
     6.修改poc.py，因系統為Windows所以改成cmd.exe
     
- ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6fd8f14f-7aa9-4cac-afb0-e598f6603cd4)
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/6fd8f14f-7aa9-4cac-afb0-e598f6603cd4)
 
+    7.執行poc.py，會產生一組LDAP位置
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/066b4a78-ee68-4dd8-9260-763098dc1745)
+
+    8.下載mc工具
+[mc工具](https://github.com/ammaraskar/pyCraft)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b7d546bd-d42f-483b-81d7-24f192eb4cc6)
+
+    9.
     
