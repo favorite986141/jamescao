@@ -71,3 +71,29 @@ Crafty Level:Easy
     14.使用msf建立reverse連接
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b4d6cdf8-2705-4eac-a4db-cf64ce8ae515)
+
+    15.將製作好的reverse shell傳輸到Windows上
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e9bb9934-d1f5-40da-bd8c-68f47607fc59)
+
+    16.執行expl.exe，msf會取得連接
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/d4431f48-4295-47bc-b419-b62d84f61223)
+
+    17.在msf上直接download .jar檔案
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/67d6a99c-5dbf-45e8-a894-a2cf8f93cb22)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/db619987-8f13-4d72-8dc5-b8eb05c5974f)
+
+    18.反編譯.jar檔檢視內容，發現一組很像密碼的字串
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/26564a79-7f1e-4637-8226-a375a26d0780)
+
+    19.找到RunasCs工具
+    
+    [RunasCs] (https://github.com/antonioCoco/RunasCs)
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/2c95e33c-af3f-4ca2-bc25-cf753b06c891)
+
+
