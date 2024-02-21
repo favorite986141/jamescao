@@ -52,6 +52,7 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/23f5dcf6-c18b-458d-8d54-4c19a9c83522)
 
+    11.找到user.txt
 
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/8e333a12-f6d2-49c3-ae1c-69e2aaae7af8)
 
-    
