@@ -102,4 +102,9 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/4392be79-8ed0-4349-b9ff-73f93da94669)
 
-    21.
+    21.將exp2.exe和RunasCs.exe上傳，出現timeout的情況
+    輸入sessions --interact 2 --timeout 10000
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9b5150da-83db-413f-b130-838e517b3753)
+
+
