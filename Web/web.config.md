@@ -1,5 +1,4 @@
 HSTS
-===
 
 <rewrite>
             <rules>
