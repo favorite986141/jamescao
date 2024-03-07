@@ -1,7 +1,7 @@
 HSTS
 ===
 
-<rewrite>
+    <rewrite>
             <rules>
                 <rule name="Redirect HTTP to HTTPS" stopProcessing="true">
                     <match url="(.*)" />
@@ -20,5 +20,5 @@ HSTS
                     <action type="Rewrite" value="max-age=31536000" />
                 </rule>
             </outboundRules>
-</rewrite>
+    </rewrite>
 
