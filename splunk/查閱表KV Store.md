@@ -15,3 +15,7 @@
 PS:建立KV Store會自己加上內容
 
 <img width="430" alt="image" src="https://github.com/favorite986141/jamescao/assets/125249893/ba1aae29-1c3b-4831-9d01-f92d055e1801">
+
+關於KV Store:
+
+    KV Store 集合是類似資料庫的資料容器。它們將您的資料儲存為鍵/值對。當您建立 KV 儲存尋找時，集合應至少有兩個欄位。其中一個欄位應具有一組與事件資料中欄位的值相符的值，以便可以進行查找匹配。
