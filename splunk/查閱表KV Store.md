@@ -6,6 +6,8 @@
 
 配置:
 
-    建立 KV 儲存搜尋之前，您的 Splunk 部署必須至少有一個在 中定義的 KV 儲存集合collections.conf(配置){https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usingconfigurationfiles/}
+    建立 KV 儲存搜尋之前，您的 Splunk 部署必須至少有一個在 中定義的 KV 儲存集合collections.conf
+    
+(配置){https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usingconfigurationfiles/}
     
 <img width="200" alt="image" src="https://github.com/favorite986141/jamescao/assets/125249893/63825028-0057-4bea-a855-5f9a25ea0187">
