@@ -19,3 +19,6 @@
     以下是不支援的：
     具有 OS X 之前版本（OS 9 或更早版本）Macintosh 樣式行結尾的 CSV 檔案（僅限回車符 (“\r”)）
     標題行超過 4096 個字元的 CSV 檔案。
+
+範例:
+<img width="928" alt="image" src="https://github.com/favorite986141/jamescao/assets/125249893/587a1583-4195-467e-96c4-1f28aa3d3dc1">
