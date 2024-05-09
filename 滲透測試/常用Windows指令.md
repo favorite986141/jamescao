@@ -1,10 +1,10 @@
 常用Windows指令
 ===
-ifconfig /all 获取获取域名、IP地址、DHCP服务器、网关、MAC地址、主机名
-net time /domain 查看域名、时间
-net view /domain 查看域内所有共享
-net view ip 查看对方局域网内开启了哪些共享
-net config workstation 查看域名、机器名等
+    ifconfig /all 获取获取域名、IP地址、DHCP服务器、网关、MAC地址、主机名
+    net time /domain 查看域名、时间
+    net view /domain 查看域内所有共享
+    net view ip 查看对方局域网内开启了哪些共享
+    net config workstation 查看域名、机器名等
 net user 用户名 密码 /add 建立用户
 net user 用户名 /del #删除用户
 net user guest /active:yes 激活guest账户
