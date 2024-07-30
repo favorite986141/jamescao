@@ -18,6 +18,6 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/09f25862-743e-4479-84ff-aef0d048a100">
 
-    5.透過目錄遍歷可以到任意位置讀取檔案
+    5.透過目錄遍歷可以到任意位置讀取檔案，存在任意讀取漏洞
 
 <img  src="https://github.com/user-attachments/assets/f9592bc4-1051-4091-b3a2-045219859815">
