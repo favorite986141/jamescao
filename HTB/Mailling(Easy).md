@@ -9,3 +9,7 @@ Mailling Level:Easy
     2.使用目錄掃描
 
 <img src="https://github.com/user-attachments/assets/b9f64963-b4f8-4f74-aa31-e0e6b05cdbbb">
+
+    3.瀏覽download.php，發現需要參數
+
+<img src="https://github.com/user-attachments/assets/9c3dea0a-ed3d-4c33-b8e1-7a14c9591c6a">
