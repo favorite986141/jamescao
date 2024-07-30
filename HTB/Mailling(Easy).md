@@ -4,4 +4,5 @@ Mailling Level:Easy
 ---
     1.使用nmpa對目標進行SCAN
   
-<img width="314" alt="image" src="https://github.com/user-attachments/assets/1aad9737-3d2f-4157-9240-6bb706407c45">
+<img width="315" alt="image" src="https://github.com/user-attachments/assets/1239796e-6ddb-4723-a0cc-5a0e30a0d308">
+
