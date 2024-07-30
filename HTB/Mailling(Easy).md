@@ -21,3 +21,7 @@ Mailling Level:Easy
     5.透過目錄遍歷可以到任意位置讀取檔案，存在任意讀取漏洞
 
 <img  src="https://github.com/user-attachments/assets/f9592bc4-1051-4091-b3a2-045219859815">
+
+    6.因為使用hMailServer服務，透過目錄遍歷漏洞找出設定檔
+    
+<img  src="https://github.com/user-attachments/assets/e86c8fe2-5786-42ad-b240-0ff938abad23">
