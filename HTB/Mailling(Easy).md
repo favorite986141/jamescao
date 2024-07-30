@@ -25,3 +25,9 @@ Mailling Level:Easy
     6.因為使用hMailServer服務，透過目錄遍歷漏洞找出設定檔
     
 <img  src="https://github.com/user-attachments/assets/e86c8fe2-5786-42ad-b240-0ff938abad23">
+
+    7.識別Hash使用哪一種雜湊並透過john將Hash破解
+
+<img  src="https://github.com/user-attachments/assets/0edfc683-db66-4cdf-86f3-0d34a860505b">
+<img  src="https://github.com/user-attachments/assets/dc6c0d2c-63a1-4a9a-8579-1006569be241">
+
