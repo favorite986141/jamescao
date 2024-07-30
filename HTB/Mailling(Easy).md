@@ -31,3 +31,7 @@ Mailling Level:Easy
 <img  src="https://github.com/user-attachments/assets/0edfc683-db66-4cdf-86f3-0d34a860505b">
 <img  src="https://github.com/user-attachments/assets/dc6c0d2c-63a1-4a9a-8579-1006569be241">
 
+    8.使用先前Nmap掃到110進行認證測試，確認可以登入憑證有效
+
+<img  src="https://github.com/user-attachments/assets/4c391322-5d58-468e-b0a7-b78e5ad9f693">
+
