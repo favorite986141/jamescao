@@ -35,3 +35,6 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/4c391322-5d58-468e-b0a7-b78e5ad9f693">
 
+    9.確認憑證有效，可透過強制訪問responder來獲取NTLM，這裡牽涉到CVE-2024-21413此漏洞腳本可以使用SMTP驗證發送電子郵件，繞過SPF、DKIM和DMARC檢查
+[CVE-2024-21413](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability?tab=readme-ov-file)
+    
