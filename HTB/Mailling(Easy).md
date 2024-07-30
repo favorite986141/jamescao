@@ -40,3 +40,6 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/739f40dc-9f3d-4673-80ed-75903c4a6d8f">
 
+    10.在本地啟用responder
+
+<img  src="https://github.com/user-attachments/assets/4edd12c0-7602-4fc9-8c13-83ff90395d9a">
