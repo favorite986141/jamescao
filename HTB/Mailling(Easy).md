@@ -59,7 +59,15 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/9f175d98-962f-4a52-98f7-35e0264c1ca7">
 
-    14.查看maya帳號權限
+    14.在destop底下找到user.txt
+
+<img  src="https://github.com/user-attachments/assets/09cd4fdc-f901-4291-a1dd-856e270759e5">
+
+尋找root.txt
+---
+    15.查看maya帳號權限，沒有可利用的點
 
 <img  src="https://github.com/user-attachments/assets/e36fdae6-d91e-4f2b-9158-955207df2a29">
+
+    16.
 
