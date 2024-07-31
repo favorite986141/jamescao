@@ -124,5 +124,19 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/1160d5d1-9c4d-4f25-a7cd-8d16751bb9f8">
 
+尋找另一個方法
+---
+    27.將maya加入管理員群組
+
+<img src="https://github.com/user-attachments/assets/50d4a345-8e8d-4230-aa02-d1b891112c6d">
+
+    28.使用crackmapexec拿到localadmin的密碼
+
+<img  src="https://github.com/user-attachments/assets/d6a4ed9b-08a0-4898-804b-ad88c45edea0">
+
+    29.登入localadmin拿到root.txt
+
+<img  src="https://github.com/user-attachments/assets/e5b3561c-11c7-4f9b-96c3-27166116faac">
+<img  src="https://github.com/user-attachments/assets/fcb33569-61ac-4b5d-bbf6-51cd619b226b">
 
 
