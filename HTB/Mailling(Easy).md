@@ -109,7 +109,7 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/398908db-e6ce-49b0-844f-2c61c64b5b6f">
 
-    24.生成一個Reverse Shell並製作成odt檔上傳到靶機
+    24.生成一個Reverse Shell並製作成odt檔上傳到靶機，會自動執行odt
 
 <img  src="https://github.com/user-attachments/assets/0854faff-9ad6-47a5-b835-494d514d1bb9">
 <img  src="https://github.com/user-attachments/assets/6a8cd89d-600f-4c02-b09a-595079dd7342">
