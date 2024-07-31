@@ -77,5 +77,12 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/faaf5600-9455-4091-87cb-0e5a61e35f93">
 
-    18.建立Shell物件：Set objShell = CreateObject("WScript.Shell") 
+    建立Shell物件：Set objShell = CreateObject("WScript.Shell") 
+    這行程式碼建立了一個 WScript.Shell 對象，該對象允許透過 VBScript 控制和與 Windows Shell 互動進行腳本:objShell.Run "explorer shell:AppsFolder\microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.mail"
+    使用運行方法開啟 Windows 的郵件應用程式（通常是 Windows 10 郵件應用程式）
+    等待程式啟動：WScript.Sleep 5000
+    該行程式碼使腳本暫停執行 5000 毫秒（5 秒），以確保郵件應用程式有足夠的時間啟動
+    啟動視窗：objShell.AppActivate "Mail"
+    
+    18.
 
