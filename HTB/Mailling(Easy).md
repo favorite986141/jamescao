@@ -84,5 +84,6 @@ Mailling Level:Easy
     該行程式碼使腳本暫停執行 5000 毫秒（5 秒），以確保郵件應用程式有足夠的時間啟動
     啟動視窗：objShell.AppActivate "Mail"
     
+    
     18.
 
