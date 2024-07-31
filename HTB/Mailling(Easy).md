@@ -91,3 +91,12 @@ Mailling Level:Easy
     19.查看一下後台任務，schtasks /query /fo LIST /v
     
 <img  src="https://github.com/user-attachments/assets/3c7062d8-f4b0-434a-822e-7decb3035ead">
+
+    20.找soffice.ps1的檔案位置，查看內容為執行odt檔
+
+<img  src="https://github.com/user-attachments/assets/95eba55c-b9dd-4b05-9052-e19d6d66cdfd">
+
+    21.查看LibreOffice版本
+
+<img  src="https://github.com/user-attachments/assets/52c7fcb5-901a-42f7-b823-c8304570967e">
+
