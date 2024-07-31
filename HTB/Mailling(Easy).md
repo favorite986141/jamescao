@@ -119,3 +119,10 @@ Mailling Level:Easy
     25.等待一段時間後會自動反彈shell回來
 
 <img  src="https://github.com/user-attachments/assets/736b2cbc-8a92-4fd3-9216-2651eb4da092">
+
+    26.確認目前的帳號為localadmin，並找出root.txt
+
+<img  src="https://github.com/user-attachments/assets/1160d5d1-9c4d-4f25-a7cd-8d16751bb9f8">
+
+
+
