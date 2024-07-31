@@ -73,4 +73,9 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/5a8198c1-9b3d-4479-a7d6-67de0408c88f">
 
+    17.查看mail.vbs，該腳本是使用 Windows Script Host (WSH) 編寫的自動化腳本。其具體目的是在Windows環境下操作應用程式和視窗
+
+<img  src="https://github.com/user-attachments/assets/faaf5600-9455-4091-87cb-0e5a61e35f93">
+
+    18.建立Shell物件：Set objShell = CreateObject("WScript.Shell") 
 
