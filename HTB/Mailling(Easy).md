@@ -105,4 +105,8 @@ Mailling Level:Easy
 [CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
 <img  src="https://github.com/user-attachments/assets/3eec236c-8282-4d91-90de-e981bb619d99">
 
+    23.在C底下有一個Important Documents
+
+<img  src="https://github.com/user-attachments/assets/398908db-e6ce-49b0-844f-2c61c64b5b6f">
+
 
