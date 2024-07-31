@@ -100,3 +100,9 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/52c7fcb5-901a-42f7-b823-c8304570967e">
 
+    22.確認版本後找尋相關的POC
+
+[CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
+<img  src="https://github.com/user-attachments/assets/3eec236c-8282-4d91-90de-e981bb619d99">
+
+
