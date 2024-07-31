@@ -55,4 +55,7 @@ Mailling Level:Easy
 <img  src="https://github.com/user-attachments/assets/ff2960b1-92e4-4ab2-8852-36619168a330">
 <img  src="https://github.com/user-attachments/assets/72c39a87-4ed9-4eee-8227-45e99f3eed9a">
 
+    13.使用evilwinrm進行登入maya帳號
+
+<img  src="https://github.com/user-attachments/assets/9f175d98-962f-4a52-98f7-35e0264c1ca7">
 
