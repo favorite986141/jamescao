@@ -88,6 +88,6 @@ Mailling Level:Easy
     
 <img src="https://github.com/user-attachments/assets/7dae098f-f8b9-47ad-bb14-e744e30c9642">
 
-    19.查看一下後台任務
+    19.查看一下後台任務，schtasks /query /fo LIST /v
     
 <img width="317" alt="image" src="https://github.com/user-attachments/assets/3c7062d8-f4b0-434a-822e-7decb3035ead">
