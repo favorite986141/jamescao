@@ -84,5 +84,10 @@ Mailling Level:Easy
 該行程式碼使腳本暫停執行 5000 毫秒（5 秒），以確保郵件應用程式有足夠的時間啟動
 啟動視窗：objShell.AppActivate "Mail"
     
-    18.
+    18.查看mail.py，這個腳本使用 pywinauto 庫模擬了郵件應用的操作，打開收件匣未讀郵件列表並逐次打開條郵件，猜測也是跟這個郵件相關的提權
+    
+<img src="https://github.com/user-attachments/assets/7dae098f-f8b9-47ad-bb14-e744e30c9642">
 
+    19.查看一下後台任務
+    
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/3c7062d8-f4b0-434a-822e-7decb3035ead">
