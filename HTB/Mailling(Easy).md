@@ -49,3 +49,10 @@ Mailling Level:Easy
 <img  src="https://github.com/user-attachments/assets/1bd97ee7-329a-4420-80e3-9bf74c0f5d03">
 <img  src="https://github.com/user-attachments/assets/2f3db44e-bbde-4410-9722-ade2577b0b98">
 <img  src="https://github.com/user-attachments/assets/b1572ab4-f621-44c3-9016-ed08d4088944">
+
+    12.拿到Maya帳號的Hash，先識別類型然後進行破解
+    
+<img  src="https://github.com/user-attachments/assets/ff2960b1-92e4-4ab2-8852-36619168a330">
+<img  src="https://github.com/user-attachments/assets/72c39a87-4ed9-4eee-8227-45e99f3eed9a">
+
+
