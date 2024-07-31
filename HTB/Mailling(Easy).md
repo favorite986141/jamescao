@@ -69,5 +69,8 @@ Mailling Level:Easy
 
 <img  src="https://github.com/user-attachments/assets/e36fdae6-d91e-4f2b-9158-955207df2a29">
 
-    16.
+    16.查看當前目錄底下有mail.py和mail.vbs兩個檔案並觀察這兩個檔案
+
+<img  src="https://github.com/user-attachments/assets/5a8198c1-9b3d-4479-a7d6-67de0408c88f">
+
 
