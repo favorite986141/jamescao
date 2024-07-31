@@ -43,3 +43,9 @@ Mailling Level:Easy
     10.在本地啟用responder
 
 <img  src="https://github.com/user-attachments/assets/4edd12c0-7602-4fc9-8c13-83ff90395d9a">
+
+    11.在下載的PDF會提到Maya會閱讀郵件，透過CVE-2024-21413的POC發送惡意連結發給Maya，當Maya點擊連結會獲取Maya帳戶的NTLM
+    
+<img  src="https://github.com/user-attachments/assets/1bd97ee7-329a-4420-80e3-9bf74c0f5d03">
+<img  src="https://github.com/user-attachments/assets/2f3db44e-bbde-4410-9722-ade2577b0b98">
+<img  src="https://github.com/user-attachments/assets/b1572ab4-f621-44c3-9016-ed08d4088944">
