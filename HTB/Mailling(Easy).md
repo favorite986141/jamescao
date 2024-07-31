@@ -116,3 +116,6 @@ Mailling Level:Easy
 <img  src="https://github.com/user-attachments/assets/461faf6c-d610-4d17-9c0b-6197ca808f2d">
 <img  src="https://github.com/user-attachments/assets/bde9be32-1531-43e8-be22-3f30f99330a2">
 
+    25.等待一段時間後會自動反彈shell回來
+
+<img  src="https://github.com/user-attachments/assets/736b2cbc-8a92-4fd3-9216-2651eb4da092">
