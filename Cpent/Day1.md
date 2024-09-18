@@ -131,3 +131,11 @@ CIFS / SMB - TCP 139,445
     執行pth-winexe –U 'Username%<LM_hash:NTLM_hash>' //<IP> cmd.exe
 <img  alt="image" src="https://github.com/user-attachments/assets/ea5804da-21b6-495e-aec5-2bc6f6b79c97">
 
+RDP - TCP 3389
+---
+    freerdp Version > 2.3
+    freerdp2-x11
+    libfreerdp2-2
+    libfreerdp-client2-2
+    sudo dpkg –l | grep freerdp
+<img  alt="image" src="https://github.com/user-attachments/assets/9798b42a-0db9-43c3-928e-f1528f51da64">
