@@ -80,7 +80,26 @@ NetBIOS over TCP/IP (NetBT)
     nbtstat -A <IP>
 <img alt="image" src="https://github.com/user-attachments/assets/6ca63c07-b9c3-41e4-9cd0-43bf73691450">
 
+**補充**
+    NetBIOS Suffix 補充：
+        NetBIOS Suffix 是用於識別NetBIOS名稱類型的1個字符代碼。以下是一些常見的NetBIOS Suffix以及它們的含義：
+    Unique names：
 
+        00: 表示Workstation服務。這種名稱通常用於識別個人計算機或工作站。
+        03: 表示Messenger服務。這種名稱用於支持Windows的網絡消息功能。
+        06: 表示RAS服務。這種名稱用於支持遠程訪問服務。
+        1B: 表示Domain Master Browser服務。這種名稱通常用於識別網絡中的主瀏覽器。
+        1D: 表示Master Browser服務。這種名稱通常用於識別工作組中的主瀏覽器。
+        20: 表示File Server服務。這種名稱通常用於識別檔案伺服器。
+        21: 表示RDBSS。這種名稱通常用於識別Windows Redirector，用於訪問遠程共享資源。
+    Group names：
+
+        00: 工作站服務（工作組/域名稱）
+        1C: 表示Domain Controllers。這種名稱通常用於識別域控制器。
+        1E: 表示瀏覽器服務（Browser Service Elections）。這種名稱通常用於瀏覽器選舉，以確定網絡中的主瀏覽器。
+    
+
+    
     net view
     net view /domain
     net view /domain:workgroup
