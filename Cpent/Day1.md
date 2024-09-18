@@ -119,3 +119,5 @@ CIFS / SMB - TCP 139,445
     更新版本
 <img  alt="image" src="https://github.com/user-attachments/assets/64b6e446-092e-4ed8-80b9-cf1fcacd20b3">
 
+    暴力破解crackmapexec smb <smb_IP> -u <users.txt> -p <password.txt>
+<img  alt="image" src="https://github.com/user-attachments/assets/a04beb33-4191-4435-8823-0e65c879b74d">
