@@ -59,4 +59,8 @@ Initial Access - Exploit MS17_010
 ENUM SNMP - UDP 161
 ---
     sudo nmap -n -p161 -sU --open 192.168.0.* -oG - | grep Up | cut -d' ' -f2 > snmp_ip.txt
-<img width="455" alt="image" src="https://github.com/user-attachments/assets/876c4d64-92e6-448b-ae50-b71cccd310d7">
+<img  alt="image" src="https://github.com/user-attachments/assets/876c4d64-92e6-448b-ae50-b71cccd310d7">
+
+    使用onesixtyone -i snmp_ips.txt public驗證是否有使用SNMP服務
+<img  alt="image" src="https://github.com/user-attachments/assets/8af77a23-0854-4611-90d5-22037f5c6d19">
+
