@@ -37,3 +37,4 @@ Initial Access - Exploit MS17_010
 ---
 
     msfconsole -q 執行metasploit
+    search ms17_010
