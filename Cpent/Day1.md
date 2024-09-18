@@ -15,3 +15,7 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
     若環境無法安裝nmap可以利用迴圈
     for i in {1..254}; do (ping -c 1 192.168.0.$i | grep "bytes from" &); done
 <img  alt="image" src="https://github.com/user-attachments/assets/b5b183ea-2680-48be-bdd7-b5c513864579">
+
+    UDP Scan
+
+<img alt="image" src="https://github.com/user-attachments/assets/73263ac5-23e4-4f12-82d8-10c4e4fd1e16">
