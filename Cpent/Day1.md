@@ -1,4 +1,4 @@
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/ec9eedff-8f10-4387-ad05-800749d7f04a">Day1
+Day1
 ===
 Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
 ---
