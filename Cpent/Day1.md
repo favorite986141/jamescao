@@ -56,7 +56,7 @@ Initial Access - Exploit MS17_010
     成功打進去192.168.0.21
 <img  alt="image" src="https://github.com/user-attachments/assets/d5bb80d8-953f-4724-a11a-a64047a7b9d9">
 
-ENUM
+ENUM SNMP - UDP 161
 ---
-
-
+    sudo nmap -n -p161 -sU --open 192.168.0.* -oG - | grep Up | cut -d' ' -f2 > snmp_ip.txt
+<img width="455" alt="image" src="https://github.com/user-attachments/assets/876c4d64-92e6-448b-ae50-b71cccd310d7">
