@@ -29,5 +29,11 @@ Service/OS Discovery
         
     sudo nmap -n -p445,3389 -sVC 192.168.0.21，發現此台主機有開啟smb v1
 <img alt="image" src="https://github.com/user-attachments/assets/c6494a73-cc45-4c6b-aa4c-b005a88a254e">
+
     sudo nmap -n --script=smb-vuln-ms17-010.nse 192.168.0.21 使用nmap上的腳本進行scan
 <img alt="image" src="https://github.com/user-attachments/assets/2950f88e-461c-4a1c-ad3d-08a04613a8cc">
+
+Initial Access - Exploit MS17_010
+---
+
+    msfconsole -q 執行metasploit
