@@ -7,4 +7,4 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
 <img  alt="image" src="https://github.com/user-attachments/assets/20801a33-6b66-4cc0-b612-f9983fd3ae7b">
 
 **補充**
-        *nmap預設只掃1000常用的連接埠
+            nmap預設只掃1000常用的連接埠
