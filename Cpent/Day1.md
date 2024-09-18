@@ -12,3 +12,6 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
             
 2.nmap沒有權限只會進行TCP connect scan只能掃80、443，若要完整的掃描開放端口需加sudo，因要進行SYN掃描要創建數據包，root權限才能創建
 
+    若環境無法安裝nmap可以利用迴圈
+    for i in {1..254}; do (ping -c 1 192.168.0.$i | grep "bytes from" &); done
+<img  alt="image" src="https://github.com/user-attachments/assets/b5b183ea-2680-48be-bdd7-b5c513864579">
