@@ -75,6 +75,12 @@ NetBIOS over TCP/IP (NetBT)
     NetBIOS資訊蒐集 sudo nbtscan -r 192.168.0.0/24
 <img  alt="image" src="https://github.com/user-attachments/assets/b47de249-1aaf-4b3d-ae3d-5f5ec154eed5">
 
+    nbtstat -n 
+    nbtstat -a <Name>
+    nbtstat -A <IP>
+<img alt="image" src="https://github.com/user-attachments/assets/6ca63c07-b9c3-41e4-9cd0-43bf73691450">
+
+
     net view
     net view /domain
     net view /domain:workgroup
