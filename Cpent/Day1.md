@@ -23,3 +23,7 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
     sudo hping3 192.168.0.7 -n -S -c 3 -p 80，利用hping發送封包
 
 <img  alt="image" src="https://github.com/user-attachments/assets/596f3f6f-44cc-4d4c-871d-62e507fe2501">
+
+Service/OS Discovery
+---
+        
