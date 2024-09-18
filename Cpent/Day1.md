@@ -96,9 +96,8 @@ NetBIOS over TCP/IP (NetBT)
         00: 工作站服務（工作組/域名稱）
         1C: 表示Domain Controllers。這種名稱通常用於識別域控制器。
         1E: 表示瀏覽器服務（Browser Service Elections）。這種名稱通常用於瀏覽器選舉，以確定網絡中的主瀏覽器。
-    
+-------------------------------------------------------------------------------------------------------    
 
-    
     net view
     net view /domain
     net view /domain:workgroup
