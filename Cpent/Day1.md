@@ -7,6 +7,7 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
 <img  alt="image" src="https://github.com/user-attachments/assets/20801a33-6b66-4cc0-b612-f9983fd3ae7b">
 
 **補充**
+
 1.nmap預設只掃1000常用的連接埠
             
 2.nmap沒有權限只會進行TCP connect scan只能掃80、443，若要完整的掃描開放端口需加sudos，因要進行SYN掃描要創建數據包，root權限才能創建
