@@ -10,5 +10,5 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
 
 1.nmap預設只掃1000常用的連接埠
             
-2.nmap沒有權限只會進行TCP connect scan只能掃80、443，若要完整的掃描開放端口需加sudos，因要進行SYN掃描要創建數據包，root權限才能創建
+2.nmap沒有權限只會進行TCP connect scan只能掃80、443，若要完整的掃描開放端口需加sudo，因要進行SYN掃描要創建數據包，root權限才能創建
 
