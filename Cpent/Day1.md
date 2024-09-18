@@ -56,4 +56,7 @@ Initial Access - Exploit MS17_010
     成功打進去192.168.0.21
 <img  alt="image" src="https://github.com/user-attachments/assets/d5bb80d8-953f-4724-a11a-a64047a7b9d9">
 
+ENUM
+---
+
 
