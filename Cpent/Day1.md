@@ -27,4 +27,4 @@ Host Discovery: IP (arp, icmp, 25, 80, 445, 3389)
 Service/OS Discovery
 ---
         
-    sudo nmap -n -p445,3389 -iL iplist -sVC
+    sudo nmap -n -p445,3389 -sVC 192.168.0.20
