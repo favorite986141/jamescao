@@ -66,3 +66,6 @@ ENUM SNMP - UDP 161
 
     snmp-check 192.168.0.20 取得該電腦的資訊並蒐集
 <img  alt="image" src="https://github.com/user-attachments/assets/4887d1fb-b79a-482f-8365-158ee5bd5671">
+
+    sudo nmap -n -p161 -sU --script snmp-win32-users 192.168.0.20 取得帳號資訊
+<img alt="image" src="https://github.com/user-attachments/assets/0645da01-62b8-49f9-b53b-4b6487049b1c">
