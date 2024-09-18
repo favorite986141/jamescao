@@ -104,3 +104,11 @@ NetBIOS over TCP/IP (NetBT)
 -------------------------------------------------------------------------------------------------------
     enum4linux 192.168.0.20
 <img  alt="image" src="https://github.com/user-attachments/assets/3c346fae-83b8-4165-93f2-02e28f22db68">
+
+CIFS / SMB - TCP 139,445
+---
+    sudo nmap -p445 -sVC  192.168.0.20
+<img alt="image" src="https://github.com/user-attachments/assets/76c30c5e-69be-42ae-826d-1f104c0f411d">
+
+    sudo nmap --script smb-os-discovery,smb-protocols
+<img  alt="image" src="https://github.com/user-attachments/assets/30de62a4-dd77-4391-989c-26ca2b44b01a">
