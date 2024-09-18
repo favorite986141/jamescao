@@ -64,3 +64,5 @@ ENUM SNMP - UDP 161
     使用onesixtyone -i snmp_ips.txt public驗證是否有使用SNMP服務
 <img  alt="image" src="https://github.com/user-attachments/assets/8af77a23-0854-4611-90d5-22037f5c6d19">
 
+    snmp-check 192.168.0.20 取得該電腦的資訊並蒐集
+<img  alt="image" src="https://github.com/user-attachments/assets/4887d1fb-b79a-482f-8365-158ee5bd5671">
