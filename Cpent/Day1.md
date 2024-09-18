@@ -123,3 +123,4 @@ CIFS / SMB - TCP 139,445
 <img  alt="image" src="https://github.com/user-attachments/assets/a04beb33-4191-4435-8823-0e65c879b74d">
 
     利用爆破拿到的帳密執行winexe winexe –U 'Username%Password' //<IP> cmd.exe
+<img alt="image" src="https://github.com/user-attachments/assets/3fb9e8d6-69ae-400a-b713-0754621ee0e6">
