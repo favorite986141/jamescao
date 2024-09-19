@@ -189,4 +189,7 @@ Privilege Escalation
 <img  alt="image" src="https://github.com/user-attachments/assets/dd0f93d0-2220-4de2-a574-2d31e215d86a">
 <img  alt="image" src="https://github.com/user-attachments/assets/cdfe2aa2-c495-4b2a-9cea-3503c4ae694b">
 
-    
+    變更檔案的執行權限並執行
+    chmod +x PwnKit
+    ./PwnKit
+<img  alt="image" src="https://github.com/user-attachments/assets/59f26233-3db6-40c3-bad7-3b7751b2592e">
