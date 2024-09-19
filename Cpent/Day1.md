@@ -161,6 +161,7 @@ SSH
     search ssh_enum
     use 1
 <img width="507" alt="image" src="https://github.com/user-attachments/assets/a8212496-ec9d-49d2-b980-7c914dad5202">
+
     set rhost 192.168.0.70
     set user_file Wordlist/Username.txt
     set check_false true
