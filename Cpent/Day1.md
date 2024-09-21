@@ -193,3 +193,9 @@ Privilege Escalation
     chmod +x PwnKit
     ./PwnKit
 <img  alt="image" src="https://github.com/user-attachments/assets/59f26233-3db6-40c3-bad7-3b7751b2592e">
+
+Linux Kernel 2.6.22 < 3.9 - 'Dirty COW /proc/self/mem' Race Condition Privilege Escalation (/etc/passwd Method)
+---
+    檢查kernal版本是否在漏洞版本區間
+![image](https://github.com/user-attachments/assets/200647a6-0081-45d5-a602-9848582b8d3b)
+
