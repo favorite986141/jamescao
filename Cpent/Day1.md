@@ -243,6 +243,7 @@ https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/f
     sudo iptables –S
     sudo iptables –P INPUT ACCEPT
     sudo iptables –P OUTPUT ACCEPT
+![image](https://github.com/user-attachments/assets/d702fe62-de35-4222-8bbf-8c816e75d5ae)
 
 
 
