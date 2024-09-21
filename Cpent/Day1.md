@@ -245,5 +245,13 @@ https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/f
     sudo iptables –P OUTPUT ACCEPT
 ![image](https://github.com/user-attachments/assets/d702fe62-de35-4222-8bbf-8c816e75d5ae)
 
+Windows找檔案
+---
+dir /s <FILE_NAME> 2> nul 
+findstr /n /i /s <KEYWORD> *.*
 
+Linux找檔案
+---
+find / -name <FILE_NAME> –ls 2> /dev/null
+grep –nir <KEYWORD> .
 
