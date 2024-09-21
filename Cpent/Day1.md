@@ -234,9 +234,10 @@ Persistent
     因不是完整的tty console當按到ctrl+c就會退出session，因次設定full tty
 https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/full-ttys
 
-    windows
+    windows關閉防火牆
     netsh firewall set opmode disable
     netsh advfirewall set allprofiles state off
+![image](https://github.com/user-attachments/assets/24c54af8-c85c-4dc8-bb9f-fc4788915527)
     
     linux
     sudo iptables –S
