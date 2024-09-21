@@ -114,7 +114,7 @@ CIFS / SMB - TCP 139,445
 <img  alt="image" src="https://github.com/user-attachments/assets/30de62a4-dd77-4391-989c-26ca2b44b01a">
 
     impacket Version > 0.9.23
-<img width="285" alt="image" src="https://github.com/user-attachments/assets/84866f67-e756-413f-bc5c-14909e7e9b7b">
+<img  alt="image" src="https://github.com/user-attachments/assets/84866f67-e756-413f-bc5c-14909e7e9b7b">
 
     更新版本
 <img  alt="image" src="https://github.com/user-attachments/assets/64b6e446-092e-4ed8-80b9-cf1fcacd20b3">
