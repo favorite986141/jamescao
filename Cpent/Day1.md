@@ -196,6 +196,7 @@ Privilege Escalation
 
 Linux Kernel 2.6.22 < 3.9 - 'Dirty COW /proc/self/mem' Race Condition Privilege Escalation (/etc/passwd Method)
 ---
+   
     檢查kernal版本是否在漏洞版本區間
 ![image](https://github.com/user-attachments/assets/200647a6-0081-45d5-a602-9848582b8d3b)
 
