@@ -212,6 +212,13 @@ Linux Kernel 2.6.22 < 3.9 - 'Dirty COW /proc/self/mem' Race Condition Privilege 
 ![image](https://github.com/user-attachments/assets/e62583cf-12ec-448b-9f07-986a731878f3)
 ![image](https://github.com/user-attachments/assets/ff2627b9-e579-4a5d-9114-564d029dd380)
 
-
+Egress Busting
+---
+    sudo tcpdump -ni eth0 tcp[13]==2 只擷取tcp包的SYN包
+    nc -nz 192.168.0.18 1-10
+    echo > /dev/tcp/192.168.0.18/200 發送封包
+    利用這些方式尋找可以出去的連接埠
+![image](https://github.com/user-attachments/assets/75e98ff4-99d2-41db-a7c5-afd50fbbf144)
+![image](https://github.com/user-attachments/assets/5408a88b-1809-4dc7-b643-28173c81fb1a)
 
 
