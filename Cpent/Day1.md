@@ -228,7 +228,13 @@ Persistent
 ![image](https://github.com/user-attachments/assets/ab920de5-84ee-49ab-91af-49233a804632)
 
     在攻擊端用nc監聽，在使用curl將shell反彈回來
-![image](https://github.com/user-attachments/assets/57e7b3f3-4a3a-4102-afdd-01d8c82a25d6)
-![image](https://github.com/user-attachments/assets/65f59780-e211-4b42-bdc8-16c75413667e)
+![image](https://github.com/user-attachments/assets/82a75e57-91e5-4d3d-b4a4-470d53e198b5)
+![image](https://github.com/user-attachments/assets/b8e282e3-8d88-4a92-b1eb-65e7b0f39f57)
+
+    因不是完整的tty console當按到ctrl+c就會退出session，因次設定full tty
+https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/full-ttys
+
+
+
 
 
