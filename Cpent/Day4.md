@@ -77,3 +77,13 @@ shellcode.c編譯&權限
     確認程式的保護機制
     checksec
 ![image](https://github.com/user-attachments/assets/405de152-e622-457f-ae43-a22f15d4bedc)
+
+    反組譯程式碼
+    disassemble main
+    r
+![image](https://github.com/user-attachments/assets/a3b70974-fdd0-4b88-b313-77374af32ad3)
+
+    設定中斷點並找到所需檔名
+    b *mian +55
+    r
+![image](https://github.com/user-attachments/assets/ebbd268b-7a78-43e2-8aad-3d507046e94b)
