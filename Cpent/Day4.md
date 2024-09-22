@@ -63,7 +63,11 @@ shellcode.c編譯&權限
     執行確認uid=0(root)
 ![image](https://github.com/user-attachments/assets/78dcc4d2-c593-4b4b-ae1c-6e9e0d41bae0)
 
-緩衝區益位stack.c編譯
+緩衝區益位stack.c
 ---
-
+    編譯&變更擁有者和權限
+    sudo gcc stack.c -o stack -z execstack -fno-stack-protector
+    sudo chown root:root stack
+    sudo chmod 4755 stack
+![image](https://github.com/user-attachments/assets/9a5495a7-bd64-4f34-b81d-137ecd100c72)
 ![image](https://github.com/user-attachments/assets/66588ac4-ca39-4068-a785-e9559b93bc95)
