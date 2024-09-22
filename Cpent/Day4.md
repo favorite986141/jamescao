@@ -1,5 +1,11 @@
 Day4
 ===
+關閉ASLR
+---
+    sysctl -a --pattren randomize
+    sysctl -w kernal.randomize_va_space=0
+![image](https://github.com/user-attachments/assets/55a72689-b830-4df2-b0c9-99ba9016c66c)
+
 Check Binary
 ---
     strings ./crackme0x00a|grep GLIBC 檢查檔案資訊
