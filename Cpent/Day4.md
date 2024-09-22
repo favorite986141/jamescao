@@ -125,4 +125,7 @@ Return to Libc
 ![image](https://github.com/user-attachments/assets/b25feb76-1f26-429d-9fc1-7789e8a89458)
 
     編譯retlib並變更擁有者和權限
+    sudo gcc retlib.c -o retlib -fno-stack-protector -z noexecstack
+    sudo chown root:root retlib
+    sudo chmod 4755 retlib
 ![image](https://github.com/user-attachments/assets/6363d2ad-254d-4c8d-961d-6135138c4290)
