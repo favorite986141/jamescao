@@ -13,8 +13,10 @@ Check Binary
     使用gdb工具進行檔案拆解 gdb crackme0x00a
     
 ![image](https://github.com/user-attachments/assets/e19147fb-edb6-4dec-8618-0ab95d0bd773)
+
      disassemble main 
 ![image](https://github.com/user-attachments/assets/6a4893d2-828a-41ad-bf84-eb122e066542)
+
     x/s 0x804a024 解出密碼
 ![image](https://github.com/user-attachments/assets/651b701a-1e4b-490b-8440-666eca76768e)
 
