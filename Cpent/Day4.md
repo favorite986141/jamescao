@@ -73,3 +73,7 @@ shellcode.c編譯&權限
     -fno-stack-protector停用堆疊保護機制。堆疊保護是一項安全功能
 ![image](https://github.com/user-attachments/assets/9a5495a7-bd64-4f34-b81d-137ecd100c72)
 ![image](https://github.com/user-attachments/assets/66588ac4-ca39-4068-a785-e9559b93bc95)
+
+    確認程式的保護機制
+    checksec
+![image](https://github.com/user-attachments/assets/405de152-e622-457f-ae43-a22f15d4bedc)
