@@ -101,4 +101,7 @@ shellcode.c編譯&權限
 ![image](https://github.com/user-attachments/assets/1f3a871b-cf43-4a11-af79-1e3073ecbb10)
 ![image](https://github.com/user-attachments/assets/bc7a9aba-f6fe-418a-95d9-9e40ca0ec079)
 
+    確認ret address 有塞BBBB的值
+![image](https://github.com/user-attachments/assets/ef0644c7-485e-4b11-a945-9e1b38f28a41)
+![image](https://github.com/user-attachments/assets/51cadb28-e0cb-494e-b104-9ca1835b2dac)
 
