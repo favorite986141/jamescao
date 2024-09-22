@@ -87,3 +87,18 @@ shellcode.c編譯&權限
     b *mian +55
     r
 ![image](https://github.com/user-attachments/assets/ebbd268b-7a78-43e2-8aad-3d507046e94b)
+
+    建立badfile檔案並執行stack，程式就無報錯
+![image](https://github.com/user-attachments/assets/96499010-86b7-4c68-8768-6a24f8ffe981)
+
+    塞值到badfile讓他超出範圍
+![image](https://github.com/user-attachments/assets/ed5b17bb-1597-4b8a-9601-8870048f721b)
+
+    找出ret address ESP位置在第42bit
+    pattern create 100 badfile
+    r
+    pattern search
+![image](https://github.com/user-attachments/assets/1f3a871b-cf43-4a11-af79-1e3073ecbb10)
+![image](https://github.com/user-attachments/assets/bc7a9aba-f6fe-418a-95d9-9e40ca0ec079)
+
+
