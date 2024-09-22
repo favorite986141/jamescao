@@ -32,3 +32,11 @@ Check Binary
 ![image](https://github.com/user-attachments/assets/7889f175-578d-4f6e-8bee-d13f7a59deb6)
 ![image](https://github.com/user-attachments/assets/ecc9b364-02c4-46cc-91cb-65ad5679a68e)
 
+shellcode.c編譯&權限
+---
+    編譯shellcode.c，gcc shellcode.c -o shellcode -z execstack
+![image](https://github.com/user-attachments/assets/d2348643-65b5-49db-a3eb-e222cbfad12d)
+
+    執行shellcode
+![image](https://github.com/user-attachments/assets/0cc8ebe4-6cfe-4d33-8c42-099e9a1262e1)
+
