@@ -46,6 +46,20 @@ shellcode.c編譯&權限
     執行shellcode
 ![image](https://github.com/user-attachments/assets/0cc8ebe4-6cfe-4d33-8c42-099e9a1262e1)
 
+    提權&編譯
+    加入 
+    "\x6a\x17"		
+    "\x58"			
+    "\x31\xdb"		
+    "\xcd\x80"
+![image](https://github.com/user-attachments/assets/81e4e9b9-db86-4369-901e-d01c56423dbf)
+![image](https://github.com/user-attachments/assets/a0cb0fd6-d96c-4d2e-a3f9-c7b3e9c154fe)
+
+    變更擁有者和執行權限
+    sudo chown root:root shellcode
+    sudo chmod 4755 shellcode
+![image](https://github.com/user-attachments/assets/fea8d6ed-5616-43e9-b6af-fb2b945c1cc4)
+
 緩衝區益位stack.c編譯
 ---
 
