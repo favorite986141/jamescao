@@ -60,6 +60,9 @@ shellcode.c編譯&權限
     sudo chmod 4755 shellcode
 ![image](https://github.com/user-attachments/assets/fea8d6ed-5616-43e9-b6af-fb2b945c1cc4)
 
+    執行確認uid=0(root)
+![image](https://github.com/user-attachments/assets/78dcc4d2-c593-4b4b-ae1c-6e9e0d41bae0)
+
 緩衝區益位stack.c編譯
 ---
 
