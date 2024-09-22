@@ -105,3 +105,8 @@ shellcode.c編譯&權限
 ![image](https://github.com/user-attachments/assets/ef0644c7-485e-4b11-a945-9e1b38f28a41)
 ![image](https://github.com/user-attachments/assets/51cadb28-e0cb-494e-b104-9ca1835b2dac)
 
+    將shellcode機器語言塞進去C的位置
+    cat shellcode.c | grep '"' | cut -d'"' -f2,4 | tr -d '"' | tr -d '\n'
+![image](https://github.com/user-attachments/assets/caa04db4-657e-42c9-b7be-3aa4cad186b1)
+![image](https://github.com/user-attachments/assets/f5d740a9-287d-44b0-854d-f06f1c434198)
+
