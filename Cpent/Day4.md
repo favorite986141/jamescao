@@ -46,3 +46,7 @@ shellcode.c編譯&權限
     執行shellcode
 ![image](https://github.com/user-attachments/assets/0cc8ebe4-6cfe-4d33-8c42-099e9a1262e1)
 
+緩衝區益位stack.c編譯
+---
+
+![image](https://github.com/user-attachments/assets/66588ac4-ca39-4068-a785-e9559b93bc95)
