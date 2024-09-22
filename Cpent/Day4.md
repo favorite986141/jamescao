@@ -109,4 +109,12 @@ shellcode.c編譯&權限
     cat shellcode.c | grep '"' | cut -d'"' -f2,4 | tr -d '"' | tr -d '\n'
 ![image](https://github.com/user-attachments/assets/caa04db4-657e-42c9-b7be-3aa4cad186b1)
 ![image](https://github.com/user-attachments/assets/f5d740a9-287d-44b0-854d-f06f1c434198)
+![image](https://github.com/user-attachments/assets/9ec9b776-0f34-43c7-85d7-03e63f12b028)
 
+    利用jmpcall去執行shellcode
+    vmmap
+    jmpcall esp /lib/i386-linux-gnu/libc-2.23.so
+![image](https://github.com/user-attachments/assets/18d71147-3075-4e68-8f7e-6ad980b72906)
+
+    將找到的jump值塞入B的位置並執行stack，確認uid=0(root)
+![image](https://github.com/user-attachments/assets/6784994b-5226-48fa-b7e9-5d4e710d8e21)
