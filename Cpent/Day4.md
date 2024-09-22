@@ -118,3 +118,11 @@ shellcode.c編譯&權限
 
     將找到的jump值塞入B的位置並執行stack，確認uid=0(root)
 ![image](https://github.com/user-attachments/assets/6784994b-5226-48fa-b7e9-5d4e710d8e21)
+
+Return to Libc
+---
+   retlib.c line #11 40 > 140 
+![image](https://github.com/user-attachments/assets/b25feb76-1f26-429d-9fc1-7789e8a89458)
+
+    編譯retlib並變更擁有者和權限
+![image](https://github.com/user-attachments/assets/6363d2ad-254d-4c8d-961d-6135138c4290)
