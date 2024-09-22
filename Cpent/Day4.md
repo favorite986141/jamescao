@@ -69,5 +69,7 @@ shellcode.c編譯&權限
     sudo gcc stack.c -o stack -z execstack -fno-stack-protector
     sudo chown root:root stack
     sudo chmod 4755 stack
+    execstack 產生一個將堆疊標記為可執行或不可執行的部分
+    -fno-stack-protector停用堆疊保護機制。堆疊保護是一項安全功能
 ![image](https://github.com/user-attachments/assets/9a5495a7-bd64-4f34-b81d-137ecd100c72)
 ![image](https://github.com/user-attachments/assets/66588ac4-ca39-4068-a785-e9559b93bc95)
