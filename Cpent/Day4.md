@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7f3c41b0-f13f-4bc0-952a-b19da3da6e99)![image](https://github.com/user-attachments/assets/3bd53213-6bfe-4b03-8791-5a1d9ce5c689)Day4
+Day4
 ===
 關閉ASLR
 ---
