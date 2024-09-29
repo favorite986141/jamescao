@@ -157,5 +157,12 @@ SHELLSHOCK
 
 LFI to RCE
 ---
-   
+    ssh administrator@192.168.0.10
+    toor
+    echo '<?php phpinfo(); ?>' >> /var/www/html/info.php
+    echo '<?php include($_GET["file"]); ?>' >> /var/www/html/inc.php
+    # Parrot:
+    http://192.168.0.10/inc.php?file=info.php
+![image](https://github.com/user-attachments/assets/28387bd5-ca33-4eaf-8dcf-29e56f688407)
+
 
