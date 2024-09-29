@@ -2,6 +2,13 @@ Day5
 ===
 ADRecon
 ---
+    AD由三個部分組成
+    目錄分割區
+    設定檔
+    Schema資料庫結構
+![image](https://github.com/user-attachments/assets/5f241d92-cbbd-4673-9652-2120ee57b018)
+![image](https://github.com/user-attachments/assets/2a14572d-8f90-4533-835c-513a9945791e)
+
     蒐集AD資訊，下載ADRecon工具
 [ADRecon工具](https://github.com/adrecon/ADRecon)
 ![image](https://github.com/user-attachments/assets/b3735d89-1269-4271-a994-8b2bb5b57117)
