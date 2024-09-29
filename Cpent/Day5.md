@@ -45,7 +45,7 @@ Pass the Ticket
 ![image](https://github.com/user-attachments/assets/4a8cfc5b-0cb2-4156-a80b-6cd23f8faf35)
 ![image](https://github.com/user-attachments/assets/57868c45-8eb9-4959-aa94-31a1371981d5)
 
-    瀏覽DC目錄
+    可瀏覽DC目錄
 ![image](https://github.com/user-attachments/assets/1495a602-6c57-4ff2-a1a8-67af5b4b1227)
 
 
