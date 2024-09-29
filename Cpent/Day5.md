@@ -86,3 +86,8 @@ Kerberoasting
 
     使用john破解user-one密碼
 ![image](https://github.com/user-attachments/assets/cad67771-346f-4b44-83af-8625d293407f)
+
+Zerologon
+---
+    下載新版mimikatz
+ [mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919)
