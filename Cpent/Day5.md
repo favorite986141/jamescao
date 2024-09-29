@@ -14,7 +14,9 @@ ADRecon
 ![image](https://github.com/user-attachments/assets/b3735d89-1269-4271-a994-8b2bb5b57117)
 
     執行powershell&ADRecon.ps1
-    powershell.exe  –ep bypass
+    powershell.exe  -nop –ep bypass
+    -nop:PowerShell 在啟動時不讀取任何配置文件，包括使用者配置文件。
+    -ep: -ExecutionPolicy Bypass 的簡寫
     > in Domain
     ./adrecon.ps1
     > OR Not in Domain
