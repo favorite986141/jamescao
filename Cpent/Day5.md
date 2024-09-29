@@ -79,4 +79,6 @@ Kerberoasting
     setspn -s http/lpt.com user-one
 ![image](https://github.com/user-attachments/assets/fbca5919-1e5d-4a1f-9fff-c59e2e07dcd5)
   
+    取得在DC上註冊的服務
+![image](https://github.com/user-attachments/assets/f4ca12aa-9f57-4d1d-a892-6f0576e95622)
 
