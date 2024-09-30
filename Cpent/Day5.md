@@ -231,4 +231,24 @@ Setup WordPress
 <img  alt="image" src="https://github.com/user-attachments/assets/0e63d34e-8a49-4e9c-a139-902772565d6b">
 <img  alt="image" src="https://github.com/user-attachments/assets/8934f6ec-ff7d-46b9-ac44-12d6261d0c5a">
 
-    
+    登入wordpress後台
+    http://192.168.0.10/wordpress/wp-admin
+    > admin / qwerty@123
+<img width="509" alt="image" src="https://github.com/user-attachments/assets/4172b4d3-800a-4fa0-93cc-1e0421f64446">
+
+WordPress Plugin Site Editor 1.1.1 - Local File Inclusion
+---
+https://www.exploit-db.com/exploits/44340
+<img  alt="image" src="https://github.com/user-attachments/assets/83cccc4c-45f1-4257-a451-b6de0af954c9">
+
+    調整上傳檔案大小
+    nano /etc/php5/apache2/php.ini
+    [Ctrl-W] OR [F6] upload_max_filesize
+    service apache2 restart
+<img  alt="image" src="https://github.com/user-attachments/assets/6ad777c8-4c35-4674-811c-acf97e7ce8f9">
+
+    安裝site Editor套件
+
+Attack WordPress
+---
+
