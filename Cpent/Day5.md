@@ -189,3 +189,8 @@ LFI to RCE
 ![image](https://github.com/user-attachments/assets/ba93e091-250f-4bbf-8938-7ea663d347b1)
 ![image](https://github.com/user-attachments/assets/acc074ef-019d-406b-aa8a-1063777564a5)
 
+PHP_SESSION_UPLOAD_PROGRESS
+---
+    創建一個塞滿垃圾的檔案
+    python -c 'print "A" * 2048 * 1024' >> junk.txt
+<img  alt="image" src="https://github.com/user-attachments/assets/91179427-5665-4ce2-98ae-a3fafea3d966">
