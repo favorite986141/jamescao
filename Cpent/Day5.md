@@ -215,3 +215,20 @@ PHP_SESSION_UPLOAD_PROGRESS
     http://192.168.0.10/imc.php?f=/tmp/shell.php&3=id
 <img  alt="image" src="https://github.com/user-attachments/assets/e4f6f37b-fea8-4e75-bdc0-69bc14707f30">
 
+Setup WordPress
+---
+    192.168.0.10
+    PHP 5.5.9
+    WordPress 4.9.1
+    http://192.168.0.10/wordpress
+<img  alt="image" src="https://github.com/user-attachments/assets/8dd1de78-3a07-487a-b013-674bc353b51b">
+
+    調整wordpress
+    mysql -uroot -pAntarct1cA
+    update wordpress.wp_options set option_value='http://192.168.0.10/wordpress' where option_name = 'siteurl';
+    update wordpress.wp_options set option_value='http://192.168.0.10/wordpress' where option_name = 'home';
+    exit
+<img  alt="image" src="https://github.com/user-attachments/assets/0e63d34e-8a49-4e9c-a139-902772565d6b">
+<img  alt="image" src="https://github.com/user-attachments/assets/8934f6ec-ff7d-46b9-ac44-12d6261d0c5a">
+
+    
