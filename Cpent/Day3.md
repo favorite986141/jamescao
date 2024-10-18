@@ -1,4 +1,4 @@
-Day3
+![image](https://github.com/user-attachments/assets/eb591005-b71b-4e20-8499-419a6375d2c0)Day3
 ===
 SSH Local Port Forwarding
 ---
@@ -39,4 +39,15 @@ SSH Remote Port Forwarding
 
     斷線後就無法連線
 ![image](https://github.com/user-attachments/assets/f1be00ca-09f4-45be-a9d1-88f3a79ef725)
+
+SSH dynamic port forwarding
+---
+    只要連至.18:9050的網路流量都可以透過.70轉發出去
+    ssh administrator@192.168.0.70 -CD 9050
+    -C：這個選項啟用了SSH壓縮，以減少資料傳輸時的頻寬使用。 它可以提高資料傳輸的效率。
+    -D 9050：這是配置動態連接埠轉送的部分。
+![image](https://github.com/user-attachments/assets/41aed900-6f0b-4509-bc6c-768a0189c497)
+
+    .18的連線狀況
+![image](https://github.com/user-attachments/assets/d008871f-07f4-4f61-81cb-3ff2e8c09f86)
 
