@@ -63,3 +63,24 @@ SSH dynamic port forwarding
     建立到目標 Windows 主機的遠端桌面連接，並以 administrator 用戶登錄，然後調整遠程桌面窗口大小。
 ![image](https://github.com/user-attachments/assets/8850d77e-3c7b-441b-a583-6952df85127b)
 
+SSH Local Port Forwarding /w Jump Host
+---
+
+    ssh -J administrator@192.168.0.70 administrator@192.168.0.10 -L *:80:192.168.0.24:80
+    先跳到192.168.0.70在透過192.168.0.10連到192.168.0.24的80 Port
+![image](https://github.com/user-attachments/assets/2ee86876-47e8-4aef-82eb-ea71275ae550)
+
+    本機只會看到連線192.168.0.70 22 Port
+![image](https://github.com/user-attachments/assets/1dd6e2e8-2e17-4918-bae4-4df6107ca3d4)
+
+    192.168.0.70只看的到連線192.168.0.10 22 Port
+![image](https://github.com/user-attachments/assets/6520cd19-e929-4d41-8ea6-767d3746af87)
+
+    瀏覽本機瀏覽器127.0.0.1:80可連接到192.168.0.24的80
+![image](https://github.com/user-attachments/assets/0e51a666-bc4b-4f95-850e-0785a8fc553b)
+
+    斷開連線後就無法連線
+![image](https://github.com/user-attachments/assets/5e11cc9b-2d0d-4f57-8534-5a1065658791)
+
+
+
