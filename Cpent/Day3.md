@@ -51,3 +51,15 @@ SSH dynamic port forwarding
     .18的連線狀況
 ![image](https://github.com/user-attachments/assets/d008871f-07f4-4f61-81cb-3ff2e8c09f86)
 
+    透過proxychains轉發流量
+    sudo nano /etc/proxychains.conf
+![image](https://github.com/user-attachments/assets/eecf5c1e-ca6e-4786-a43e-ef34ebcb15e0)
+
+    proxychains winexe -U 'administrator%Pa$$w0rd' //192.168.0.7 cmd.exe
+    通過代理伺服器建立到目標 Windows 主機的遠端連接，然後運行 cmd.exe 命令提示字元，以在遠端主機上執行命令。
+![image](https://github.com/user-attachments/assets/ec03da12-0c29-40c3-a6e5-bcf228d8a7ae)
+
+    proxychains xfreerdp /v:192.168.0.7 /u:administrator /p:'Pa$$word' /size:90%
+    建立到目標 Windows 主機的遠端桌面連接，並以 administrator 用戶登錄，然後調整遠程桌面窗口大小。
+![image](https://github.com/user-attachments/assets/8850d77e-3c7b-441b-a583-6952df85127b)
+
