@@ -14,3 +14,14 @@ SSH Local Port Forwarding
 
 斷線後就無法連接
 ![image](https://github.com/user-attachments/assets/896a68c0-6d99-4ef3-82d2-d962411f25db)
+
+SSH Remote Port Forwarding
+---
+    ssh -R *:8008:192.168.0.24:80 administrator@192.168.0.70
+    先在 192.168.0.70 開啟 GatewayPorts 的設定，不然沒法讓人家連 8008 port
+    sudo nano /etc/ssh/sshd_config
+    sudo service ssh restart
+![image](https://github.com/user-attachments/assets/f86f24b5-d46b-4093-8bf3-2c093b1b1ba5)
+![image](https://github.com/user-attachments/assets/97129812-5fa9-4785-8989-a1aa5039e907)
+![image](https://github.com/user-attachments/assets/4410ecea-4aa3-4ed0-b68e-08bc3f9b5710)
+
