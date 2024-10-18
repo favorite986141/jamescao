@@ -11,3 +11,6 @@ SSH Local Port Forwarding
 
 本機瀏覽器127.0.0.1:80 等於 192.168.0.24:80
 ![image](https://github.com/user-attachments/assets/62274627-a98b-4007-b9f4-84c034e2292c)
+
+斷線後就無法連接
+![image](https://github.com/user-attachments/assets/896a68c0-6d99-4ef3-82d2-d962411f25db)
