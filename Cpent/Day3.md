@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/eb591005-b71b-4e20-8499-419a6375d2c0)Day3
+Day3
 ===
 SSH Local Port Forwarding
 ---
