@@ -183,6 +183,26 @@ Chisel Reverse
 ![image](https://github.com/user-attachments/assets/48dbadd3-d3e9-4341-bb82-7ba335d8bcdb)
 ![image](https://github.com/user-attachments/assets/d8bdad50-2f82-414f-b798-b191399a63de)
 
+Xcat
+---
+    binwalk –t  DVRF_v03.bin 列出此檔案的資訊
+![image](https://github.com/user-attachments/assets/5ddb4848-ad45-4cdf-88dd-8b56670b9a84)
 
+    binwalk –t encrypted.bin 沒有秀出任何資訊，應是被加密過
+![image](https://github.com/user-attachments/assets/9ddb7ea8-33ad-4d24-8bf2-43d43a0502f1)
 
+    hexdump -v -C encrypted.bin 
+
+    binwalk -E encrypted.bin 可觀察到頻率有浮動
+![image](https://github.com/user-attachments/assets/9e26310c-1f95-4fe3-bbd8-6fc35fd3fee7)
+
+    hexdump -v -C encrypted.bin | cut -d" " -f3-20 | sort | uniq -c | sort -nr | head -n 20 觀察到有重複111次的16進位的值
+![image](https://github.com/user-attachments/assets/1ca3b097-19b7-41e5-a5db-7679fd938e6c)
+
+[Xcat](https://github.com/mstrand/xcat)
+    chmod +x xcat.py 
+    ./xcat.py -x <xor_key> encrypted.bin > decrypted.bin 
+    binwalk –t decrypted.bin 
+    成功解出檔案資訊
+![image](https://github.com/user-attachments/assets/6651448f-89bf-4d22-a028-f30c3de089bf)
 
