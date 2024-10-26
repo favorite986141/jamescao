@@ -148,8 +148,12 @@ Datapipe
 Chisel
 ---
     目前有 Windows、Parrot 兩台電腦，想讓 Windows 連結 http://127.0.0.1:8888 就可以瀏覽 Parrot 電腦中的檔案目錄結構。
+    架設http server，python3 -m http.server 80
+![image](https://github.com/user-attachments/assets/73cf3f15-8465-4f75-b040-02e9830e1c74)
+
     chisel server –p 443
     chisel client <chisel_server>:443 <remote_addr>:445
+    
     Kali架設chisel server
 ![image](https://github.com/user-attachments/assets/7a2ae0c7-f3b8-442e-a3f1-0e52251cd660)
 
@@ -167,6 +171,16 @@ Chisel Reverse
 ---
     chisel server –p 443 --reverse 
     chisel client <chisel_server>:443 R:<remote_addr>:445
+
+    Windows架設chisel server
+![image](https://github.com/user-attachments/assets/d0869e2f-5f6f-4beb-b8f3-d0df96fbff3f)
+
+    Kali Client連線
+![image](https://github.com/user-attachments/assets/8c7d4b97-c49c-44c2-95a6-a828eee66845)
+
+    瀏覽本機80，127.0.0.1:80
+![image](https://github.com/user-attachments/assets/48dbadd3-d3e9-4341-bb82-7ba335d8bcdb)
+
 
 
 
