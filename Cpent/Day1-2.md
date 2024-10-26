@@ -247,11 +247,11 @@ https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/f
 
 Windows找檔案
 ---
-dir /s <FILE_NAME> 2> nul 
-findstr /n /i /s <KEYWORD> *.*
+    dir /s <FILE_NAME> 2> nul 
+    findstr /n /i /s <KEYWORD> *.*
 
 Linux找檔案
 ---
-find / -name <FILE_NAME> –ls 2> /dev/null
-grep –nir <KEYWORD> .
+    find / -name <FILE_NAME> –ls 2> /dev/null
+    grep –nir <KEYWORD> .
 
