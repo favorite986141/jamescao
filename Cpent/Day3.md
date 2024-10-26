@@ -207,3 +207,21 @@ Xcat
     成功解出檔案資訊
 ![image](https://github.com/user-attachments/assets/6651448f-89bf-4d22-a028-f30c3de089bf)
 
+XORTool
+---
+    python -m pip install xortool
+![image](https://github.com/user-attachments/assets/cb85b519-c722-424e-939a-bf9581520622)
+
+    xortool enctypted.bin
+![image](https://github.com/user-attachments/assets/f0229ee6-7738-46ce-ae6f-e04546dbf439)
+
+    xortool enctypted.bin -l 8 -c 00
+![image](https://github.com/user-attachments/assets/62564dee-74ca-418c-a44b-d68c1b0b0074)
+
+    python -c "print(b'\x88D\xa2\xd1h\xb4Z-'.hex())"
+![image](https://github.com/user-attachments/assets/0fd2e97a-e8ca-4720-920b-4c6104e4f1e1)
+
+    ./xcat.py -x 8844a2d168b45a2d encrypted.bin > 123.bin
+![image](https://github.com/user-attachments/assets/25a37c66-d966-4d67-b787-64c528bacde7)
+
+
