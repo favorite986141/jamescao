@@ -115,3 +115,15 @@ Datapipe
 ---
 [datapipe](https://github.com/bovine/datapipe/blob/master/datapipe.c) 
 
+    change Line 80: 20 to 999
+![image](https://github.com/user-attachments/assets/3606ec73-5646-4406-b999-a38ef1f1ecc1)
+
+    編譯datapipe.c
+    gcc datapipe.c –o datapipe
+![image](https://github.com/user-attachments/assets/7e4c5c7d-a7e8-417a-837e-a712ec599572)
+
+    Setup datapipe
+    datapipe 0.0.0.0 135 192.168.0.7 135
+    datapipe 0.0.0.0 445 192.168.0.7 445
+    datapipe 0.0.0.0 4444 172.19.19.18 4444
+![image](https://github.com/user-attachments/assets/504b6fc7-2354-4a87-b6c6-1f2487d2f114)
