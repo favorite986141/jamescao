@@ -166,6 +166,7 @@ Chisel
     瀏覽本機80，127.0.0.1:80
     
 ![image](https://github.com/user-attachments/assets/553a47c4-7661-4049-a3dd-20d0cd65be87)
+![image](https://github.com/user-attachments/assets/fc04d8a4-cd4e-4f0a-bcaf-570436870c17)
 
 Chisel Reverse
 ---
@@ -180,6 +181,7 @@ Chisel Reverse
 
     瀏覽本機80，127.0.0.1:80
 ![image](https://github.com/user-attachments/assets/48dbadd3-d3e9-4341-bb82-7ba335d8bcdb)
+![image](https://github.com/user-attachments/assets/d8bdad50-2f82-414f-b798-b191399a63de)
 
 
 
