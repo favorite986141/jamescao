@@ -200,6 +200,7 @@ Xcat
 ![image](https://github.com/user-attachments/assets/1ca3b097-19b7-41e5-a5db-7679fd938e6c)
 
 [Xcat](https://github.com/mstrand/xcat)
+    
     chmod +x xcat.py 
     ./xcat.py -x <xor_key> encrypted.bin > decrypted.bin 
     binwalk –t decrypted.bin 
