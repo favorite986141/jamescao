@@ -125,7 +125,7 @@ shellcode.c編譯&權限
 
 Return to Libc
 ---
-   retlib.c line #11 40 > 140 
+    retlib.c line #11 40 > 140 
 ![image](https://github.com/user-attachments/assets/b25feb76-1f26-429d-9fc1-7789e8a89458)
 
     編譯retlib並變更擁有者和權限
