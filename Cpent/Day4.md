@@ -116,6 +116,10 @@ shellcode.c編譯&權限
     jmpcall esp /lib/i386-linux-gnu/libc-2.23.so
 ![image](https://github.com/user-attachments/assets/18d71147-3075-4e68-8f7e-6ad980b72906)
 
+    變更擁有者和執行權限
+    sudo chown root:root shellcode
+    sudo chmod 4755 shellcode
+
     將找到的jump值塞入B的位置並執行stack，確認uid=0(root)
 ![image](https://github.com/user-attachments/assets/6784994b-5226-48fa-b7e9-5d4e710d8e21)
 
