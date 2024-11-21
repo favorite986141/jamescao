@@ -187,6 +187,13 @@ ROP
     https://github.com/longld/peda
     git clone https://github.com/longld/peda.git ~/peda
     echo "source ~/peda/peda.py" >> ~/.gdbinit
+    
+    最新版本的kali安裝peda會有找不到six模組問題
+![image](https://github.com/user-attachments/assets/1948a9cb-df3e-4cd4-b02e-ad50e178f47c)
+
+    解決辦法將kali預設安裝的python的six模組覆蓋到peda的six模組，即可正常使用
+    cp -p /usr/lib/python3/dist-packages/six.py /root/peda-1.2/lib/
+![image](https://github.com/user-attachments/assets/aec233c6-5da3-486e-8f89-77928516da82)
 
     challenge-one
     ./challenge-one
