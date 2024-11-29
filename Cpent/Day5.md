@@ -167,7 +167,7 @@ LFI to RCE
     echo '<?php include($_GET["file"]); ?>' >> /var/www/html/inc.php
     # Parrot:
     http://192.168.0.10/inc.php?file=info.php
-![image](https://github.com/user-attachments/assets/28387bd5-ca33-4eaf-8dcf-29e56f688407)
+![image](https://github.com/user-attachments/assets/d471ccf4-6c45-442c-985c-a2f5b658a9cc)
 ![image](https://github.com/user-attachments/assets/a8db145f-bb93-4ce9-946f-243730f1366f)
 
     chmod 777 -R /var/log/apache2
