@@ -237,8 +237,10 @@ ROP
     ./level-two
 ![image](https://github.com/user-attachments/assets/b1241eda-6e2f-442b-beec-d2b1c6d5f9ae)
 
-    確認檔案資訊
+    確認檔案資訊&變更權限
     file level-two
+    chown root:root
+    chnod 4755
 ![image](https://github.com/user-attachments/assets/99bcc9f8-cb08-4e61-8bb5-ba9c5f10dcaf)
 
     確認程式碼保護機制
