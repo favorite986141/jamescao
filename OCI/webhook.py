@@ -2,54 +2,66 @@ import io
 import json
 import logging
 import requests
+import concurrent.futures
 from fdk import response
+
+# 初始化連線池
+session = requests.Session()
+adapter = requests.adapters.HTTPAdapter(pool_connections=20, pool_maxsize=20)
+session.mount('https://', adapter)
 
 def handler(ctx, data: io.BytesIO = None):
     cfg = ctx.Config()
-    # 從 OCI 配置讀取 URL 與金鑰
     endpoint_url = cfg.get("ENDPOINT_URL")
-    api_key = cfg.get("API_KEY")
-    secret = cfg.get("SECRET")
+    api_key = cfg.get("X-goog-api-key")
+    secret = cfg.get("X-Webhook-Access-Key")
 
     if not all([endpoint_url, api_key, secret]):
         return response.Response(ctx, response_data="Missing Configuration", status_code=500)
 
     try:
         if data is None or data.getvalue() == b"":
-            return response.Response(ctx, response_data="Empty Data", status_code=200)
+            return response.Response(ctx, response_data="", status_code=200)
 
-        # 1. 解析來自 Connector Hub 的資料 (通常是 List)
-        input_data = json.loads(data.getvalue().decode('utf-8'))
+        # 1. 解析原始資料
+        raw_payload = data.getvalue().decode('utf-8')
+        input_data = json.loads(raw_payload)
         
-        # 2. 準備 Google SecOps 要求的 URL 格式 (依據您的圖片)
+        # 2. 準備目標 URL
         separator = "&" if "?" in endpoint_url else "?"
         target_url = f"{endpoint_url}{separator}key={api_key}&secret={secret}"
         headers = {"Content-Type": "application/json"}
 
-        # 3. 核心處理邏輯：拆解批次
-        # 如果是列表，就一筆一筆發送；如果不是，就直接發送
+        # 3. 準備原始事件列表
         events_to_process = input_data if isinstance(input_data, list) else [input_data]
+        total_events = len(events_to_process)
         
-        success_count = 0
-        for event in events_to_process:
-            try:
-                # 這裡的 event 就是單一筆 JSON 事件
-                resp = requests.post(target_url, json=event, headers=headers, timeout=10)
-                if resp.status_code < 300:
-                    success_count += 1
-                else:
-                    logging.getLogger().error(f"單筆發送失敗: {resp.status_code}, {resp.text}")
-            except Exception as inner_e:
-                logging.getLogger().error(f"發送過程發生錯誤: {str(inner_e)}")
+        logging.getLogger().info(f"開始拋送 {total_events} 筆原始日誌...")
 
-        logging.getLogger().info(f"批次處理完成：成功發送 {success_count}/{len(events_to_process)} 筆事件")
-        
+        # 定義拋送邏輯 (發送原始 event)
+        def send_to_google(event):
+            try:
+                resp = session.post(target_url, json=event, headers=headers, timeout=10)
+                return resp.status_code < 300
+            except Exception:
+                return False
+
+        # 平行處理
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            results = list(executor.map(send_to_google, events_to_process))
+            success_count = sum(results)
+
+        logging.getLogger().info(f"拋送完畢：成功 {success_count}/{total_events}")
+
+        # 【關鍵修正】不要回傳任何 JSON 統計資訊，回傳空內容。
+        # 這樣 Google SecOps 就不會收到那段 {"processed":...}
         return response.Response(
-            ctx, 
-            response_data=json.dumps({"processed": len(events_to_process), "success": success_count}),
-            headers={"Content-Type": "application/json"}
+            ctx,
+            response_data="", 
+            headers={"Content-Type": "text/plain"}
         )
 
     except Exception as e:
-        logging.getLogger().error(f"Function 崩潰: {str(e)}")
-        return response.Response(ctx, response_data=str(e), status_code=500)
+        logging.getLogger().error(f"系統崩潰: {str(e)}")
+        # 錯誤時也只回傳狀態碼，不回傳詳細資訊給 Google
+        return response.Response(ctx, response_data="", status_code=500)
