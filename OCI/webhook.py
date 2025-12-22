@@ -48,7 +48,7 @@ def handler(ctx, data: io.BytesIO = None):
 
         # 平行處理
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-            results = list(executor.map(send_to_google, events_to_process))
+			results = list(executor.map(send_to_google, events_to_process))
             success_count = sum(results)
 
         logging.getLogger().info(f"拋送完畢：成功 {success_count}/{total_events}")
