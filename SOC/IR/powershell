@@ -1,0 +1,1 @@
+Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624; StartTime=(Get-Date '2026-08-19 14:00:00'); EndTime=(Get-Date '2026-08-19 15:00:00')} | ForEach-Object { $_.TimeCreated.ToString() + ' | ' + $_.Properties[5].Value + ' | IP: ' + $_.Properties[18].Value }
