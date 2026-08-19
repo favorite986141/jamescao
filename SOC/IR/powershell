@@ -1,1 +1,15 @@
+//列出eventlog
 Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624; StartTime=(Get-Date '2026-08-19 14:00:00'); EndTime=(Get-Date '2026-08-19 15:00:00')} | ForEach-Object { $_.TimeCreated.ToString() + ' | ' + $_.Properties[5].Value + ' | IP: ' + $_.Properties[18].Value }
+//列出wmi 登入紀錄
+Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624; StartTime=(Get-Date '2026-08-19 14:00:00'); EndTime=(Get-Date '2026-08-19 15:00:00')} | ForEach-Object {
+    $xml = [xml]$_.ToXml()
+    $data = $xml.Event.EventData.Data
+    $user = ($data | Where-Object {$_.Name -eq 'TargetUserName'}).'#text'
+    $ip   = ($data | Where-Object {$_.Name -eq 'IpAddress'}).'#text'
+    $type = ($data | Where-Object {$_.Name -eq 'LogonType'}).'#text'
+    
+    # 過濾本機內部連線，只列出外部/跨機台連線
+    if ($ip -and $ip -ne '-' -and $ip -ne '127.0.0.1' -and $ip -ne '::1') {
+        "$($_.TimeCreated) | User: $user | IP: $ip | LogonType: $type"
+    }
+} | Out-String
